@@ -100,7 +100,7 @@ def merge_batchnorms_in_net(net):
         can_be_absorbed = True
 
         # Search all (bottom) layers
-        for j in xrange(i - 1, -1, -1):
+        for j in range(i - 1, -1, -1):
             tops_of_j = net.top_names[net._layer_names[j]]
             if l_bottom in tops_of_j:
                 if net.layers[j].type not in ['Convolution', 'InnerProduct']:
@@ -115,7 +115,7 @@ def merge_batchnorms_in_net(net):
 
         # find the following Scale
         scale_ind = None
-        for j in xrange(i + 1, len(net.layers)):
+        for j in range(i + 1, len(net.layers)):
             bottoms_of_j = net.bottom_names[net._layer_names[j]]
             if l_top in bottoms_of_j:
                 if scale_ind:
