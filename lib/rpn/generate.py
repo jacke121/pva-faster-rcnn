@@ -6,6 +6,7 @@
 # --------------------------------------------------------
 
 from fast_rcnn.config import cfg
+import matplotlib as plt
 from utils.blob import im_list_to_blob
 from utils.timer import Timer
 import numpy as np
@@ -96,7 +97,7 @@ def im_proposals(net, im):
     scale = blobs['im_info'][0, 2:]
     boxes = blobs_out['rois'][:, 1:].copy() / scale
     scores = blobs_out['scores'].copy()
-    print "----------------------------"
+    print("----------------------------")
     return boxes, scores
 
 def imdb_proposals(net, imdb):
@@ -119,12 +120,12 @@ def imdb_proposals(net, imdb):
 	    #dets = np.hstack((imdb_boxes[i], scores))
             inds = np.where(dets[:, -1] >= 0.00)[0]
             count = 0
-	    for i in inds:
-		count += 1
-		if(count > 100):
-			break
-                bbox = dets[i, :4]
-                score = dets[i, -1]
+            for i in inds:
+                count += 1
+                if(count > 100):
+                    break
+                    bbox = dets[i, :4]
+                    score = dets[i, -1]
                # cv2.rectangle(im, (int(bbox[0]),int(bbox[1])),(int(bbox[2]),int(bbox[3])),(0,0,255))
            # out_str = "rpn_imgs/" + str(i) + ".jpg"
            # cv2.imwrite(out_str,im)

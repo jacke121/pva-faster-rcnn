@@ -31,7 +31,7 @@ class number_detection(imdb):
         #self._classes = ('__background__','text', 'non-text')
 #	self._classes = ('__background__','number_0','number_1','number_2','number_3','number_4','number_5','number_6','number_7','number_8','number_9','number_10','number_11','number_12','number_13','number_14','number_15','number_16','number_17','number_18','number_19')
 #	self._classes = ('__background__','number_0','number_1','number_2','number_3','number_4','number_5','number_6', 'number_7')
-	self._classes = ('__background__','number_0')
+        self._classes = ('__background__','number_0')
         self._class_to_ind = dict(zip(self.classes, range(self.num_classes)))
         
         self._image_index = self._load_image_set_index(image_set)
@@ -196,7 +196,7 @@ class number_detection(imdb):
         for ix in range(0,num_objs):
             str_tmp = f.readline()
             split_str = str_tmp.strip().split()
-	    gt_classes[ix] = int(split_str[0])
+            gt_classes[ix] = int(split_str[0])
             class_label = split_str[0]
             x1 = float(split_str[1])
             y1 = float(split_str[2])
@@ -240,7 +240,7 @@ class number_detection(imdb):
         for cls_ind, cls in enumerate(self.classes):
             if cls == '__background__':
                 continue
-            print 'Writing {} VOC results file'.format(cls)
+            print('Writing {} VOC results file'.format(cls))
             filename = self._get_voc_results_file_template().format(cls)
             with open(filename, 'wt') as f:
                 for im_ind, index in enumerate(self.image_index):
@@ -300,9 +300,9 @@ class number_detection(imdb):
         print('--------------------------------------------------------------')
 
     def _do_matlab_eval(self, output_dir='output'):
-        print '-----------------------------------------------------'
-        print 'Computing results with the official MATLAB eval code.'
-        print '-----------------------------------------------------'
+        print('-----------------------------------------------------')
+        print('Computing results with the official MATLAB eval code.')
+        print('-----------------------------------------------------')
         path = os.path.join(cfg.ROOT_DIR, 'lib', 'datasets',
                             'VOCdevkit-matlab-wrapper')
         cmd = 'cd {} && '.format(path)

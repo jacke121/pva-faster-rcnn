@@ -121,7 +121,7 @@ def get_training_roidb(imdb):
 
     print('Preparing training data...')
     rdl_roidb.prepare_roidb(imdb)
-    print('done')
+    print('Preparing training data done')
 
     return imdb.roidb
 

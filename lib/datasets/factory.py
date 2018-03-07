@@ -37,7 +37,7 @@ devkit = '/home/guoyilin/project/pva-faster-rcnn/data/Train/'
 __sets[name] =  (lambda image_set=image_set,devkit=devkit: number_detection(image_set,devkit))
 def get_imdb(name):
     """Get an imdb (image database) by name."""
-    if not __sets.has_key(name):
+    if not name in __sets:
         raise KeyError('Unknown dataset: {}'.format(name))
     return __sets[name]()
 

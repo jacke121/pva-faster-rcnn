@@ -199,8 +199,8 @@ __C.EPS = 1e-14
 __C.ROOT_DIR = osp.abspath(osp.join(osp.dirname(__file__), '..', '..'))
 
 # Data directory
-__C.DATA_DIR = osp.abspath(osp.join(__C.ROOT_DIR, 'data'))
-
+# __C.DATA_DIR = osp.abspath(osp.join(__C.ROOT_DIR, 'data'))
+__C.DATA_DIR =r"D:\data\pascal_voc" #osp.abspath(osp.join(__C.ROOT_DIR, 'data'))
 # Model directory
 __C.MODELS_DIR = osp.abspath(osp.join(__C.ROOT_DIR, 'models', 'pascal_voc'))
 
@@ -238,9 +238,9 @@ def _merge_a_into_b(a, b):
     if type(a) is not edict:
         return
 
-    for k, v in a.iteritems():
+    for k, v in a.items():
         # a must specify keys that are in b
-        if not b.has_key(k):
+        if not k in b:
             raise KeyError('{} is not a valid config key'.format(k))
 
         # the types must match, too

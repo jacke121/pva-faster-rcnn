@@ -39,7 +39,7 @@ def parse_args():
                         default=None, type=str)
     parser.add_argument('--cfg', dest='cfg_file',
                         help='optional config file',
-                        default=None, type=str)
+                        default="../models/pvanet/cfgs/train.yml", type=str)
     parser.add_argument('--imdb', dest='imdb_name',
                         help='dataset to train on',
                         default='voc_2007_trainval', type=str)
@@ -50,9 +50,9 @@ def parse_args():
                         help='set config keys', default=None,
                         nargs=argparse.REMAINDER)
 
-    if len(sys.argv) == 1:
-        parser.print_help()
-        sys.exit(1)
+    # if len(sys.argv) == 1:
+    #     parser.print_help()
+    #     sys.exit(1)
 
     args = parser.parse_args()
     return args

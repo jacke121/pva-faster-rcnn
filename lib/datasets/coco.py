@@ -214,7 +214,7 @@ class coco(imdb):
         if osp.exists(cache_file):
             with open(cache_file, 'rb') as fid:
                 roidb = pickle.load(fid)
-            print '{} gt roidb loaded from {}'.format(self.name, cache_file)
+            print('{} gt roidb loaded from {}'.format(self.name, cache_file))
             return roidb
 
         gt_roidb = [self._load_coco_annotation(index)
