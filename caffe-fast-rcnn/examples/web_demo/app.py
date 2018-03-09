@@ -36,7 +36,7 @@ def classify_url():
     try:
         string_buffer = StringIO.StringIO(
             urllib.urlopen(imageurl).read())
-        image = caffe.io.load_image(string_buffer)
+        image = caffe.caffe_io.load_image(string_buffer)
 
     except Exception as err:
         # For any exception we encounter in reading the image, we will just

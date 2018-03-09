@@ -200,7 +200,24 @@ __C.ROOT_DIR = osp.abspath(osp.join(osp.dirname(__file__), '..', '..'))
 
 # Data directory
 # __C.DATA_DIR = osp.abspath(osp.join(__C.ROOT_DIR, 'data'))
-__C.DATA_DIR =r"D:\data\pascal_voc" #osp.abspath(osp.join(__C.ROOT_DIR, 'data'))
+
+
+import platform
+
+
+def getSystem():
+    if 'Windows' in platform.system():
+        return "win"
+    if 'Linux' in platform.system():
+        return "linux"
+
+
+if  "win" in getSystem():
+    __C.DATA_DIR = r"D:\data\pascal_voc"  # osp.abspath(osp.join(__C.ROOT_DIR, 'data'))
+else:
+    __C.DATA_DIR = r"/media/sbd/work/data/pascal_voc"  # osp.abspath(osp.join(__C.ROOT_DIR, 'data'))
+
+
 # Model directory
 __C.MODELS_DIR = osp.abspath(osp.join(__C.ROOT_DIR, 'models', 'pascal_voc'))
 

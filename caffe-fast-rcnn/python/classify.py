@@ -116,11 +116,11 @@ def main(argv):
         inputs = np.load(args.input_file)
     elif os.path.isdir(args.input_file):
         print("Loading folder: %s" % args.input_file)
-        inputs =[caffe.io.load_image(im_f)
+        inputs =[caffe.caffe_io.load_image(im_f)
                  for im_f in glob.glob(args.input_file + '/*.' + args.ext)]
     else:
         print("Loading file: %s" % args.input_file)
-        inputs = [caffe.io.load_image(args.input_file)]
+        inputs = [caffe.caffe_io.load_image(args.input_file)]
 
     print("Classifying %d inputs." % len(inputs))
 
