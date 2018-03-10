@@ -215,7 +215,7 @@ def getSystem():
 if  "win" in getSystem():
     __C.DATA_DIR = r"D:\data\pascal_voc"  # osp.abspath(osp.join(__C.ROOT_DIR, 'data'))
 else:
-    __C.DATA_DIR = r"/media/sbd/work/data/pascal_voc"  # osp.abspath(osp.join(__C.ROOT_DIR, 'data'))
+    __C.DATA_DIR = r"/media/lbg/Windows10/data/pascal_voc"  # osp.abspath(osp.join(__C.ROOT_DIR, 'data'))
 
 
 # Model directory
