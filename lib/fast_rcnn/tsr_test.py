@@ -18,7 +18,7 @@ from fast_rcnn.test import im_detect
 from fast_rcnn.nms_wrapper import nms
 from utils.timer import Timer
 import datetime
-#import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 import numpy as np
 import scipy.io as sio
 import caffe, os, sys, cv2
@@ -78,9 +78,9 @@ def runDetection (net, testFileName, detectionFile):
     num = 1
    
     for imageFileName in ftest.readlines():
-        print 'num:',num
-        print 'file_name:',imageFileName
-        imageFileName = imageFileName.strip() 
+        print('num:', num)
+        print('file_name:', imageFileName)
+        imageFileName = imageFileName.strip()
         if(not os.path.exists(imageFileName)):
             continue 
         old_im = cv2.imread(imageFileName)
@@ -107,14 +107,14 @@ def runDetection (net, testFileName, detectionFile):
         if(new_width < 30 or new_height < 30):
             continue
 # Detect all object classes and regress object bounds
-        print "new width, height:", new_width, new_height
+        print("new width, height:", new_width, new_height)
         timer = Timer()
         timer.tic()
-	print "start:",datetime.datetime.now()
+        print("start:", datetime.datetime.now())
         scores, boxes = im_detect(net, im)
-	print "end:",datetime.datetime.now()
+        print("end:", datetime.datetime.now())
         timer.toc()
-        print "time:", timer.total_time
+        print("time:", timer.total_time)
         #print boxes
 
         
@@ -130,12 +130,12 @@ def runDetection (net, testFileName, detectionFile):
             keep = nms(dets, NMS_THRESH)
             dets = dets[keep, :]
 	    CONF_THRESH = CONF_THRESHS[cls_ind-1]
-            inds = np.where(dets[:, -1] >= CONF_THRESH)[0]  
-            print 'Detected number size: ', inds.size
+            inds = np.where(dets[:, -1] >= CONF_THRESH)[0]
+            print('Detected number size: ', inds.size)
             for i in inds:
                 bbox = dets[i, :4]
                 score = dets[i, -1]
-	        print bbox
+                print(bbox)
                 cv2.rectangle(im, (int(bbox[0]),int(bbox[1])),(int(bbox[2]),int(bbox[3])),(0,0,255))
                 font = cv2.FONT_HERSHEY_SIMPLEX	
  #               text = ''
@@ -227,7 +227,7 @@ if __name__ == '__main__':
         cfg.GPU_ID = args.gpu_id
     net = caffe.Net(prototxt, caffemodel, caffe.TEST)
 
-    print '\n\nLoaded network {:s}'.format(caffemodel)
-    print prototxt
+    print('\n\nLoaded network {:s}'.format(caffemodel))
+    print(prototxt)
     detectionFile = open(args.detection_file, 'w')
     runDetection(net, args.test_file, detectionFile)

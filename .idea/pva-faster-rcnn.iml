@@ -18,6 +18,8 @@
       <sourceFolder url="file://$MODULE_DIR$/caffe-fast-rcnn/python" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/caffe-fast-rcnn/python/caffe" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lib/fast_rcnn/datasets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/fast_rfcn" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/datasets" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.6 (python3.6)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
