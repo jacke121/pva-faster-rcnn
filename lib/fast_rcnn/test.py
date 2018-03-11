@@ -20,6 +20,7 @@ from utils.blob import im_list_to_blob
 import os
 from utils.cython_bbox import bbox_vote
 import time
+import datetime
 def _get_image_blob(im):
     """Converts an image into a network input.
 
@@ -274,6 +275,10 @@ def test_net(net, imdb, max_per_image=100, thresh=0.05, vis=False):
             box_proposals = roidb[i]['boxes'][roidb[i]['gt_classes'] == 0]
 
         im = cv2.imread(imdb.image_path_at(i))
+
+
+        time_old=datetime.datetime.now()
+
         scores, boxes = im_detect(net, im, _t, box_proposals)
 
         _t['misc'].tic()
@@ -306,7 +311,7 @@ def test_net(net, imdb, max_per_image=100, thresh=0.05, vis=False):
                     keep = np.where(all_boxes[j][i][:, -1] >= image_thresh)[0]
                     all_boxes[j][i] = all_boxes[j][i][keep, :]
         _t['misc'].toc()
-
+        print('requests', (datetime.datetime.now() - time_old).microseconds)
         print('im_detect: {:d}/{:d}  net {:.3f}s  preproc {:.3f}s  postproc {:.3f}s  misc {:.3f}s'
               .format(i + 1, num_images, _t['im_net'].average_time,
                       _t['im_preproc'].average_time, _t['im_postproc'].average_time,

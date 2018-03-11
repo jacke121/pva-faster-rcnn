@@ -27,12 +27,12 @@ def parse_args():
                         default=0, type=int)
     parser.add_argument('--def', dest='prototxt',
                         help='prototxt file defining the network',
-                        default=None, type=str)
+                        default="../models/pvanet/example_train/test.prototxt", type=str)
     parser.add_argument('--net', dest='caffemodel',
                         help='model to test',
-                        default=None, type=str)
+                        default="/home/lbg/soft/pva9.1_pretrained_no_fc6.caffemodel", type=str)
     parser.add_argument('--cfg', dest='cfg_file',
-                        help='optional config file', default=None, type=str)
+                        help='optional config file', default="../models/pvanet/cfgs/train.yml", type=str)
     parser.add_argument('--wait', dest='wait',
                         help='wait until net file exists',
                         default=True, type=bool)
@@ -50,9 +50,9 @@ def parse_args():
                         help='max number of detections per image',
                         default=100, type=int)
 
-    if len(sys.argv) == 1:
-        parser.print_help()
-        sys.exit(1)
+    # if len(sys.argv) == 1:
+    #     parser.print_help()
+    #     sys.exit(1)
 
     args = parser.parse_args()
     return args

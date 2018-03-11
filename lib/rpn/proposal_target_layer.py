@@ -124,8 +124,11 @@ def _get_bbox_regression_labels(bbox_target_data, num_classes):
         cls = clss[ind]
         start = 4 * cls
         end = start + 4
-        bbox_targets[int(ind), int(start):int(end)] = bbox_target_data[int(ind), 1:]
-        bbox_inside_weights[int(ind), int(start):int(end)] = cfg.TRAIN.BBOX_INSIDE_WEIGHTS
+        if  (bbox_targets[int(ind), int(start):int(end)].shape==bbox_target_data[int(ind), 1:].shape):
+            bbox_targets[int(ind), int(start):int(end)] = bbox_target_data[int(ind), 1:]
+            bbox_inside_weights[int(ind), int(start):int(end)] = cfg.TRAIN.BBOX_INSIDE_WEIGHTS
+        else:
+            print("111111111111111111111111",clss[ind])
     return bbox_targets, bbox_inside_weights
 
 
