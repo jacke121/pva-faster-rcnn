@@ -28,9 +28,12 @@ def parse_args():
     parser.add_argument('--def', dest='prototxt',
                         help='prototxt file defining the network',
                         default="../models/pvanet/example_train/test.prototxt", type=str)
+    # parser.add_argument('--net', dest='caffemodel',
+    #                     help='model to test',
+    #                     default="/home/lbg/soft/pva9.1_pretrained_no_fc6.caffemodel", type=str)
     parser.add_argument('--net', dest='caffemodel',
                         help='model to test',
-                        default="/home/lbg/soft/pva9.1_pretrained_no_fc6.caffemodel", type=str)
+                        default="../output/faster_rcnn_pvanet/voc_2007_trainval/pvanet_frcnn_iter_8000.caffemodel", type=str)
     parser.add_argument('--cfg', dest='cfg_file',
                         help='optional config file', default="../models/pvanet/cfgs/train.yml", type=str)
     parser.add_argument('--wait', dest='wait',

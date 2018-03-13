@@ -9,7 +9,7 @@
 
 __sets = {}
 from datasets.number_detection import number_detection 
-from datasets.pascal_voc import pascal_voc
+from datasets.pascal_voc_mouse import pascal_voc
 from datasets.coco import coco
 import numpy as np
 

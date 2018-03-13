@@ -44,7 +44,7 @@ __C.TRAIN.SCALE_MULTIPLE_OF = 32
 __C.TRAIN.MAX_SIZE = 512
 
 # Images to use per minibatch
-__C.TRAIN.IMS_PER_BATCH = 2
+__C.TRAIN.IMS_PER_BATCH = 8
 
 # Minibatch size (number of regions of interest [ROIs])
 __C.TRAIN.BATCH_SIZE = 128
@@ -71,7 +71,7 @@ __C.TRAIN.BBOX_REG = True
 __C.TRAIN.BBOX_THRESH = 0.5
 
 # Iterations between snapshots
-__C.TRAIN.SNAPSHOT_ITERS = 10000
+__C.TRAIN.SNAPSHOT_ITERS = 2000
 
 # solver.prototxt specifies the snapshot path prefix, this adds an optional
 # infix to yield the path: <prefix>[_<infix>]_iters_XYZ.caffemodel
@@ -215,7 +215,7 @@ def getSystem():
 if  "win" in getSystem():
     __C.DATA_DIR = r"D:\data\pascal_voc"  # osp.abspath(osp.join(__C.ROOT_DIR, 'data'))
 else:
-    __C.DATA_DIR = r"/home/lbg/data/train"  # osp.abspath(osp.join(__C.ROOT_DIR, 'data'))
+    __C.DATA_DIR = r"/home/sbd/data/train/mouse"  # osp.abspath(osp.join(__C.ROOT_DIR, 'data'))
 
 
 # Model directory

@@ -212,6 +212,7 @@ class COCOeval:
 
         # sort dt highest score first, sort gt ignore last
         # gt = sorted(gt, key=lambda x: x['_ignore'])
+        print("22222222222222222222222222222222222222222222222222222")
         gtind = [ind for (ind, g) in sorted(enumerate(gt), key=lambda ind_g: g['_ignore']) ]
 
         gt = [gt[ind] for ind in gtind]

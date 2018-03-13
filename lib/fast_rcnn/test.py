@@ -280,11 +280,20 @@ def test_net(net, imdb, max_per_image=100, thresh=0.05, vis=False):
         time_old=datetime.datetime.now()
 
         scores, boxes = im_detect(net, im, _t, box_proposals)
+        # print('requests1', boxes)
+        # print('requests1', scores)
+        # cv2.rectangle(im, (boxes[0], boxes[1]), (boxes[2], boxes[3]), (0, 0, 255), 2)
+        # cv2.putText(im, '%s%0.3f' % ("mouse", scores[0]), (int(boxes[0]), int(boxes[1] - 2)), cv2.FONT_HERSHEY_COMPLEX,
+        #             0.5, (0, 0, 255), 1)
+        # cv2.imshow('1', im)
+        # cv2.waitKey(0)
 
         _t['misc'].tic()
         # skip j = 0, because it's the background class
         for j in range(1, imdb.num_classes):
             inds = np.where(scores[:, j] > thresh)[0]
+            if len(inds)>0:
+                print("getgetgetgetgetgetgetgetgetgetgetgetgetgetgetgetgetget")
             cls_scores = scores[inds, j]
             cls_boxes = boxes[inds, j*4:(j+1)*4]
             cls_dets = np.hstack((cls_boxes, cls_scores[:, np.newaxis])) \
@@ -311,7 +320,21 @@ def test_net(net, imdb, max_per_image=100, thresh=0.05, vis=False):
                     keep = np.where(all_boxes[j][i][:, -1] >= image_thresh)[0]
                     all_boxes[j][i] = all_boxes[j][i][keep, :]
         _t['misc'].toc()
-        print('requests', (datetime.datetime.now() - time_old).microseconds)
+
+        # cv2.rectangle(im, (bbox[0], bbox[1]), (bbox[2], bbox[3]), (0, 0, 255), 2)
+        # cv2.putText(im, '%s%0.3f' % (class_name, score), (int(bbox[0]), int(bbox[1] - 2)), cv2.FONT_HERSHEY_COMPLEX,
+        #             0.5, (0, 0, 255), 1)
+
+        # for i in inds:
+        #     bbox = all_boxes[i, :4]
+        #     score = all_boxes[i, -1]
+        #     cv2.rectangle(im, (bbox[0], bbox[1]), (bbox[2], bbox[3]), (0, 0, 255), 2)
+        #     cv2.putText(im, '%s%0.3f' % (class_name, score), (int(bbox[0]), int(bbox[1] - 2)), cv2.FONT_HERSHEY_COMPLEX,
+        #                 0.5, (0, 0, 255), 1)
+        # cv2.imshow('1', im)
+        # cv2.waitKey()
+
+        print('requests2', (datetime.datetime.now() - time_old).microseconds)
         print('im_detect: {:d}/{:d}  net {:.3f}s  preproc {:.3f}s  postproc {:.3f}s  misc {:.3f}s'
               .format(i + 1, num_images, _t['im_net'].average_time,
                       _t['im_preproc'].average_time, _t['im_postproc'].average_time,
