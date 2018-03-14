@@ -24,7 +24,6 @@
  /home/sbd/anaconda3/include/H5Rpublic.h \
  /home/sbd/anaconda3/include/H5Spublic.h \
  /home/sbd/anaconda3/include/H5FDcore.h \
- /home/sbd/anaconda3/include/H5FDdirect.h \
  /home/sbd/anaconda3/include/H5FDfamily.h \
  /home/sbd/anaconda3/include/H5FDlog.h \
  /home/sbd/anaconda3/include/H5FDmpi.h \
@@ -32,6 +31,7 @@
  /home/sbd/anaconda3/include/H5FDmulti.h \
  /home/sbd/anaconda3/include/H5FDsec2.h \
  /home/sbd/anaconda3/include/H5FDstdio.h \
+ /home/sbd/anaconda3/include/H5FDdirect.h \
  /home/sbd/anaconda3/include/hdf5_hl.h /home/sbd/anaconda3/include/hdf5.h \
  /home/sbd/anaconda3/include/H5DOpublic.h \
  /home/sbd/anaconda3/include/H5DSpublic.h \
@@ -39,7 +39,6 @@
  /home/sbd/anaconda3/include/H5IMpublic.h \
  /home/sbd/anaconda3/include/H5TBpublic.h \
  /home/sbd/anaconda3/include/H5PTpublic.h \
- /home/sbd/anaconda3/include/H5LDpublic.h \
  include/caffe/layers/hdf5_data_layer.hpp include/caffe/blob.hpp \
  include/caffe/common.hpp include/caffe/util/device_alternate.hpp \
  /usr/local/cuda-8.0/include/cublas_v2.h \
@@ -124,8 +123,6 @@
 
 /home/sbd/anaconda3/include/H5FDcore.h:
 
-/home/sbd/anaconda3/include/H5FDdirect.h:
-
 /home/sbd/anaconda3/include/H5FDfamily.h:
 
 /home/sbd/anaconda3/include/H5FDlog.h:
@@ -139,6 +136,8 @@
 /home/sbd/anaconda3/include/H5FDsec2.h:
 
 /home/sbd/anaconda3/include/H5FDstdio.h:
+
+/home/sbd/anaconda3/include/H5FDdirect.h:
 
 /home/sbd/anaconda3/include/hdf5_hl.h:
 
@@ -155,8 +154,6 @@
 /home/sbd/anaconda3/include/H5TBpublic.h:
 
 /home/sbd/anaconda3/include/H5PTpublic.h:
-
-/home/sbd/anaconda3/include/H5LDpublic.h:
 
 include/caffe/layers/hdf5_data_layer.hpp:
 

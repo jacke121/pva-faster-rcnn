@@ -155,7 +155,6 @@
     /home/sbd/anaconda3/include/H5version.h \
     /usr/include/inttypes.h \
     /home/sbd/anaconda3/include/H5api_adpt.h \
-    /usr/lib/gcc/x86_64-linux-gnu/5/include/stdbool.h \
     /home/sbd/anaconda3/include/H5Apublic.h \
     /home/sbd/anaconda3/include/H5Ipublic.h \
     /home/sbd/anaconda3/include/H5Opublic.h \
@@ -176,7 +175,6 @@
     /home/sbd/anaconda3/include/H5Rpublic.h \
     /home/sbd/anaconda3/include/H5Spublic.h \
     /home/sbd/anaconda3/include/H5FDcore.h \
-    /home/sbd/anaconda3/include/H5FDdirect.h \
     /home/sbd/anaconda3/include/H5FDfamily.h \
     /home/sbd/anaconda3/include/H5FDlog.h \
     /home/sbd/anaconda3/include/H5FDmpi.h \
@@ -184,6 +182,7 @@
     /home/sbd/anaconda3/include/H5FDmulti.h \
     /home/sbd/anaconda3/include/H5FDsec2.h \
     /home/sbd/anaconda3/include/H5FDstdio.h \
+    /home/sbd/anaconda3/include/H5FDdirect.h \
     /home/sbd/anaconda3/include/hdf5_hl.h \
     /home/sbd/anaconda3/include/H5DOpublic.h \
     /home/sbd/anaconda3/include/H5DSpublic.h \
@@ -191,7 +190,6 @@
     /home/sbd/anaconda3/include/H5IMpublic.h \
     /home/sbd/anaconda3/include/H5TBpublic.h \
     /home/sbd/anaconda3/include/H5PTpublic.h \
-    /home/sbd/anaconda3/include/H5LDpublic.h \
     ./include/caffe/layers/hdf5_data_layer.hpp \
     /usr/include/c++/5/string \
     /usr/include/c++/5/bits/stringfwd.h \
