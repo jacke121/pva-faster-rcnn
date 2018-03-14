@@ -18,4 +18,6 @@ sudo apt-get install -y python-numpy python-scipy
 sudo apt-get install -y libboost-all-dev
 sudo apt-get install -y python-tk
 
-sudo apt-get install libgoogle-glog-dev
+sudo apt-get install -y libgoogle-glog-dev
+
+sudo apt-get install -y cython
