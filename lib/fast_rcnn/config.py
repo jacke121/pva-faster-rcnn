@@ -33,6 +33,31 @@ cfg = __C
 
 __C.TRAIN = edict()
 
+# Root directory of project
+__C.ROOT_DIR = osp.abspath(osp.join(osp.dirname(__file__), '..', '..'))
+
+# Data directory
+# __C.DATA_DIR = osp.abspath(osp.join(__C.ROOT_DIR, 'data'))
+
+
+import platform
+
+
+def getSystem():
+    if 'Windows' in platform.system():
+        return "win"
+    if 'Linux' in platform.system():
+        return "linux"
+
+
+if  "win" in getSystem():
+    __C.DATA_DIR = r"D:\data\pascal_voc"  # osp.abspath(osp.join(__C.ROOT_DIR, 'data'))
+else:
+    __C.DATA_DIR = r"/home/sbd/data/train/mouse"  # osp.abspath(osp.join(__C.ROOT_DIR, 'data'))
+
+
+# Model directory
+__C.MODELS_DIR = osp.abspath(osp.join(__C.ROOT_DIR, 'models', 'pascal_voc'))
 # Scales to use during training (can list multiple scales)
 # Each scale is the pixel size of an image's shortest side
 __C.TRAIN.SCALES = (512,)
@@ -195,31 +220,7 @@ __C.RNG_SEED = 3
 # A small number that's used many times
 __C.EPS = 1e-14
 
-# Root directory of project
-__C.ROOT_DIR = osp.abspath(osp.join(osp.dirname(__file__), '..', '..'))
 
-# Data directory
-# __C.DATA_DIR = osp.abspath(osp.join(__C.ROOT_DIR, 'data'))
-
-
-import platform
-
-
-def getSystem():
-    if 'Windows' in platform.system():
-        return "win"
-    if 'Linux' in platform.system():
-        return "linux"
-
-
-if  "win" in getSystem():
-    __C.DATA_DIR = r"D:\data\pascal_voc"  # osp.abspath(osp.join(__C.ROOT_DIR, 'data'))
-else:
-    __C.DATA_DIR = r"/home/sbd/data/train/mouse"  # osp.abspath(osp.join(__C.ROOT_DIR, 'data'))
-
-
-# Model directory
-__C.MODELS_DIR = osp.abspath(osp.join(__C.ROOT_DIR, 'models', 'pascal_voc'))
 
 # Name (or path to) the matlab executable
 __C.MATLAB = 'matlab'

@@ -75,7 +75,7 @@ layer {
     decay_mult: 0
   }
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 layer {

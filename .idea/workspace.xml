@@ -2,854 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1d36a29-a183-46ba-a6ec-910674a677f9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/other.xml" afterPath="$PROJECT_DIR$/.idea/other.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/pva-faster-rcnn.iml" afterPath="$PROJECT_DIR$/.idea/pva-faster-rcnn.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" afterPath="$PROJECT_DIR$/LICENSE" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/.Doxyfile" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/.Doxyfile" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/.build_release/lib/libcaffe.so.1.0.0" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/.build_release/lib/libcaffe.so.1.0.0" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/.github/ISSUE_TEMPLATE.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/.github/ISSUE_TEMPLATE.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/.travis.yml" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/.travis.yml" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/CMakeLists.txt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/CONTRIBUTING.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/CONTRIBUTORS.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/CONTRIBUTORS.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/INSTALL.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/INSTALL.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/LICENSE" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/LICENSE" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/Makefile" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/Makefile" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/Makefile.config" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/Makefile.config" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/Makefile.config.example" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/Makefile.config.example" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/README.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/README.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/caffe.cloc" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/caffe.cloc" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/ConfigGen.cmake" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/ConfigGen.cmake" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/Cuda.cmake" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/Cuda.cmake" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/Dependencies.cmake" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/Dependencies.cmake" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/External/gflags.cmake" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/External/gflags.cmake" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/External/glog.cmake" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/External/glog.cmake" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/Misc.cmake" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/Misc.cmake" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/Modules/FindAtlas.cmake" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/Modules/FindAtlas.cmake" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/Modules/FindGFlags.cmake" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/Modules/FindGFlags.cmake" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/Modules/FindGlog.cmake" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/Modules/FindGlog.cmake" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/Modules/FindLAPACK.cmake" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/Modules/FindLAPACK.cmake" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/Modules/FindLMDB.cmake" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/Modules/FindLMDB.cmake" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/Modules/FindLevelDB.cmake" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/Modules/FindLevelDB.cmake" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/Modules/FindMKL.cmake" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/Modules/FindMKL.cmake" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/Modules/FindMatlabMex.cmake" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/Modules/FindMatlabMex.cmake" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/Modules/FindNCCL.cmake" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/Modules/FindNCCL.cmake" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/Modules/FindNumPy.cmake" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/Modules/FindNumPy.cmake" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/Modules/FindOpenBLAS.cmake" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/Modules/FindOpenBLAS.cmake" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/Modules/FindSnappy.cmake" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/Modules/FindSnappy.cmake" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/Modules/FindvecLib.cmake" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/Modules/FindvecLib.cmake" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/ProtoBuf.cmake" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/ProtoBuf.cmake" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/Summary.cmake" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/Summary.cmake" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/Targets.cmake" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/Targets.cmake" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/Templates/CaffeConfig.cmake.in" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/Templates/CaffeConfig.cmake.in" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/Templates/CaffeConfigVersion.cmake.in" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/Templates/CaffeConfigVersion.cmake.in" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/Templates/caffe_config.h.in" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/Templates/caffe_config.h.in" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/Uninstall.cmake.in" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/Uninstall.cmake.in" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/Utils.cmake" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/Utils.cmake" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/lint.cmake" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/cmake/lint.cmake" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docker/README.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docker/README.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docker/cpu/Dockerfile" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docker/cpu/Dockerfile" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docker/gpu/Dockerfile" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docker/gpu/Dockerfile" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/CMakeLists.txt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/CNAME" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/CNAME" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/README.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/README.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/_config.yml" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/_config.yml" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/_layouts/default.html" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/_layouts/default.html" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/development.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/development.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/images/GitHub-Mark-64px.png" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/images/GitHub-Mark-64px.png" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/images/caffeine-icon.png" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/images/caffeine-icon.png" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/index.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/index.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/install_apt.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/install_apt.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/install_apt_debian.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/install_apt_debian.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/install_osx.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/install_osx.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/install_yum.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/install_yum.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/installation.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/installation.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/model_zoo.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/model_zoo.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/multigpu.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/multigpu.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/stylesheets/pygment_trac.css" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/stylesheets/pygment_trac.css" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/stylesheets/reset.css" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/stylesheets/reset.css" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/stylesheets/styles.css" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/stylesheets/styles.css" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/convolution.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/convolution.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/data.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/data.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/fig/.gitignore" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/fig/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/fig/backward.jpg" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/fig/backward.jpg" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/fig/forward.jpg" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/fig/forward.jpg" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/fig/forward_backward.png" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/fig/forward_backward.png" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/fig/layer.jpg" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/fig/layer.jpg" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/fig/logreg.jpg" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/fig/logreg.jpg" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/forward_backward.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/forward_backward.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/index.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/index.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/interfaces.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/interfaces.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/absval.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/absval.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/accuracy.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/accuracy.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/argmax.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/argmax.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/batchnorm.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/batchnorm.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/batchreindex.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/batchreindex.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/bias.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/bias.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/bnll.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/bnll.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/concat.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/concat.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/contrastiveloss.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/contrastiveloss.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/convolution.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/convolution.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/crop.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/crop.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/data.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/data.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/deconvolution.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/deconvolution.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/dropout.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/dropout.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/dummydata.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/dummydata.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/eltwise.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/eltwise.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/elu.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/elu.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/embed.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/embed.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/euclideanloss.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/euclideanloss.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/exp.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/exp.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/filter.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/filter.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/flatten.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/flatten.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/hdf5data.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/hdf5data.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/hdf5output.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/hdf5output.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/hingeloss.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/hingeloss.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/im2col.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/im2col.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/imagedata.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/imagedata.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/infogainloss.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/infogainloss.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/innerproduct.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/innerproduct.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/input.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/input.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/log.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/log.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/lrn.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/lrn.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/lstm.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/lstm.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/memorydata.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/memorydata.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/multinomiallogisticloss.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/multinomiallogisticloss.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/mvn.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/mvn.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/parameter.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/parameter.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/pooling.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/pooling.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/power.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/power.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/prelu.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/prelu.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/python.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/python.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/recurrent.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/recurrent.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/reduction.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/reduction.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/relu.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/relu.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/reshape.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/reshape.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/rnn.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/rnn.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/scale.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/scale.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/sigmoid.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/sigmoid.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/sigmoidcrossentropyloss.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/sigmoidcrossentropyloss.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/silence.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/silence.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/slice.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/slice.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/softmax.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/softmax.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/softmaxwithloss.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/softmaxwithloss.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/split.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/split.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/spp.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/spp.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/tanh.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/tanh.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/threshold.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/threshold.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/tile.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/tile.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/windowdata.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/layers/windowdata.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/loss.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/loss.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/net_layer_blob.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/net_layer_blob.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/solver.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/docs/tutorial/solver.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/00-classification.ipynb" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/00-classification.ipynb" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/01-learning-lenet.ipynb" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/01-learning-lenet.ipynb" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/02-fine-tuning.ipynb" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/02-fine-tuning.ipynb" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/CMakeLists.txt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/brewing-logreg.ipynb" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/brewing-logreg.ipynb" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/cifar10/cifar10_full.prototxt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/cifar10/cifar10_full.prototxt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/cifar10/cifar10_full_sigmoid_solver.prototxt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/cifar10/cifar10_full_sigmoid_solver.prototxt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/cifar10/cifar10_full_sigmoid_solver_bn.prototxt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/cifar10/cifar10_full_sigmoid_solver_bn.prototxt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/cifar10/cifar10_full_sigmoid_train_test.prototxt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/cifar10/cifar10_full_sigmoid_train_test.prototxt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/cifar10/cifar10_full_sigmoid_train_test_bn.prototxt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/cifar10/cifar10_full_sigmoid_train_test_bn.prototxt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/cifar10/cifar10_full_solver.prototxt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/cifar10/cifar10_full_solver.prototxt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/cifar10/cifar10_full_solver_lr1.prototxt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/cifar10/cifar10_full_solver_lr1.prototxt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/cifar10/cifar10_full_solver_lr2.prototxt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/cifar10/cifar10_full_solver_lr2.prototxt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/cifar10/cifar10_full_train_test.prototxt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/cifar10/cifar10_full_train_test.prototxt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/cifar10/cifar10_quick.prototxt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/cifar10/cifar10_quick.prototxt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/cifar10/cifar10_quick_solver.prototxt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/cifar10/cifar10_quick_solver.prototxt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/cifar10/cifar10_quick_solver_lr1.prototxt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/cifar10/cifar10_quick_solver_lr1.prototxt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/cifar10/cifar10_quick_train_test.prototxt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/cifar10/cifar10_quick_train_test.prototxt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/cifar10/convert_cifar_data.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/cifar10/convert_cifar_data.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/cifar10/readme.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/cifar10/readme.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/cpp_classification/classification.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/cpp_classification/classification.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/cpp_classification/readme.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/cpp_classification/readme.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/detection.ipynb" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/detection.ipynb" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/feature_extraction/imagenet_val.prototxt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/feature_extraction/imagenet_val.prototxt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/feature_extraction/readme.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/feature_extraction/readme.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/finetune_flickr_style/flickr_style.csv.gz" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/finetune_flickr_style/flickr_style.csv.gz" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/finetune_flickr_style/readme.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/finetune_flickr_style/readme.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/finetune_flickr_style/style_names.txt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/finetune_flickr_style/style_names.txt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/finetune_pascal_detection/pascal_finetune_solver.prototxt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/finetune_pascal_detection/pascal_finetune_solver.prototxt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/finetune_pascal_detection/pascal_finetune_trainval_test.prototxt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/finetune_pascal_detection/pascal_finetune_trainval_test.prototxt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/hdf5_classification/nonlinear_auto_test.prototxt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/hdf5_classification/nonlinear_auto_test.prototxt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/hdf5_classification/nonlinear_auto_train.prototxt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/hdf5_classification/nonlinear_auto_train.prototxt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/hdf5_classification/nonlinear_train_val.prototxt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/hdf5_classification/nonlinear_train_val.prototxt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/hdf5_classification/train_val.prototxt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/hdf5_classification/train_val.prototxt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/imagenet/readme.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/imagenet/readme.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/images/cat gray.jpg" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/images/cat gray.jpg" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/images/cat.jpg" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/images/cat.jpg" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/images/cat_gray.jpg" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/images/cat_gray.jpg" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/images/fish-bike.jpg" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/images/fish-bike.jpg" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/mnist/convert_mnist_data.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/mnist/convert_mnist_data.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/mnist/lenet.prototxt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/mnist/lenet.prototxt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/mnist/lenet_adadelta_solver.prototxt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/mnist/lenet_adadelta_solver.prototxt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/mnist/lenet_auto_solver.prototxt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/mnist/lenet_auto_solver.prototxt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/mnist/lenet_consolidated_solver.prototxt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/mnist/lenet_consolidated_solver.prototxt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/mnist/lenet_multistep_solver.prototxt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/mnist/lenet_multistep_solver.prototxt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/mnist/lenet_solver.prototxt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/mnist/lenet_solver.prototxt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/mnist/lenet_solver_adam.prototxt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/mnist/lenet_solver_adam.prototxt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/mnist/lenet_solver_rmsprop.prototxt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/mnist/lenet_solver_rmsprop.prototxt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/mnist/lenet_train_test.prototxt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/mnist/lenet_train_test.prototxt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/mnist/mnist_autoencoder.prototxt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/mnist/mnist_autoencoder.prototxt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/mnist/mnist_autoencoder_solver.prototxt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/mnist/mnist_autoencoder_solver.prototxt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/mnist/mnist_autoencoder_solver_adadelta.prototxt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/mnist/mnist_autoencoder_solver_adadelta.prototxt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/mnist/mnist_autoencoder_solver_adagrad.prototxt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/mnist/mnist_autoencoder_solver_adagrad.prototxt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/mnist/mnist_autoencoder_solver_nesterov.prototxt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/mnist/mnist_autoencoder_solver_nesterov.prototxt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/mnist/readme.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/mnist/readme.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/net_surgery.ipynb" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/net_surgery.ipynb" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/net_surgery/bvlc_caffenet_full_conv.prototxt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/net_surgery/bvlc_caffenet_full_conv.prototxt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/net_surgery/conv.prototxt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/net_surgery/conv.prototxt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/pascal-multilabel-with-datalayer.ipynb" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/pascal-multilabel-with-datalayer.ipynb" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/pycaffe/caffenet.py" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/pycaffe/caffenet.py" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/pycaffe/layers/pascal_multilabel_datalayers.py" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/pycaffe/layers/pascal_multilabel_datalayers.py" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/pycaffe/layers/pyloss.py" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/pycaffe/layers/pyloss.py" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/pycaffe/linreg.prototxt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/pycaffe/linreg.prototxt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/pycaffe/tools.py" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/pycaffe/tools.py" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/siamese/convert_mnist_siamese_data.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/siamese/convert_mnist_siamese_data.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/siamese/mnist_siamese.ipynb" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/siamese/mnist_siamese.ipynb" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/siamese/mnist_siamese.prototxt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/siamese/mnist_siamese.prototxt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/siamese/mnist_siamese_solver.prototxt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/siamese/mnist_siamese_solver.prototxt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/siamese/mnist_siamese_train_test.prototxt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/siamese/mnist_siamese_train_test.prototxt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/siamese/readme.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/siamese/readme.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/web_demo/app.py" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/web_demo/app.py" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/web_demo/exifutil.py" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/web_demo/exifutil.py" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/web_demo/readme.md" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/web_demo/readme.md" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/web_demo/requirements.txt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/web_demo/requirements.txt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/examples/web_demo/templates/index.html" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/examples/web_demo/templates/index.html" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/blob.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/blob.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/caffe.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/caffe.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/common.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/common.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/data_transformer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/data_transformer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/fast_rcnn_layers.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/fast_rcnn_layers.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/filler.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/filler.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/internal_thread.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/internal_thread.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layer_factory.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layer_factory.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/absval_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/absval_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/accuracy_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/accuracy_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/argmax_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/argmax_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/base_conv_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/base_conv_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/base_data_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/base_data_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/batch_norm_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/batch_norm_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/batch_reindex_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/batch_reindex_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/bias_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/bias_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/bnll_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/bnll_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/concat_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/concat_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/contrastive_loss_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/contrastive_loss_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/conv_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/conv_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/crop_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/crop_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/cudnn_conv_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/cudnn_conv_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/cudnn_lcn_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/cudnn_lcn_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/cudnn_lrn_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/cudnn_lrn_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/cudnn_pooling_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/cudnn_pooling_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/cudnn_relu_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/cudnn_relu_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/cudnn_sigmoid_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/cudnn_sigmoid_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/cudnn_softmax_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/cudnn_softmax_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/cudnn_tanh_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/cudnn_tanh_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/data_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/data_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/deconv_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/deconv_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/dropout_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/dropout_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/dummy_data_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/dummy_data_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/eltwise_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/eltwise_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/elu_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/elu_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/embed_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/embed_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/euclidean_loss_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/euclidean_loss_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/exp_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/exp_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/filter_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/filter_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/flatten_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/flatten_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/hdf5_data_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/hdf5_data_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/hdf5_output_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/hdf5_output_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/hinge_loss_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/hinge_loss_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/im2col_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/im2col_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/image_data_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/image_data_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/infogain_loss_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/infogain_loss_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/inner_product_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/inner_product_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/input_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/input_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/log_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/log_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/loss_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/loss_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/lrn_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/lrn_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/lstm_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/lstm_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/memory_data_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/memory_data_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/multinomial_logistic_loss_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/multinomial_logistic_loss_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/mvn_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/mvn_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/neuron_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/neuron_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/parameter_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/parameter_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/pooling_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/pooling_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/power_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/power_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/prelu_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/prelu_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/python_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/python_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/recurrent_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/recurrent_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/reduction_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/reduction_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/relu_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/relu_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/reshape_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/reshape_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/rnn_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/rnn_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/scale_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/scale_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/sigmoid_cross_entropy_loss_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/sigmoid_cross_entropy_loss_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/sigmoid_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/sigmoid_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/silence_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/silence_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/slice_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/slice_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/softmax_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/softmax_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/softmax_loss_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/softmax_loss_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/split_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/split_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/spp_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/spp_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/tanh_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/tanh_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/threshold_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/threshold_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/tile_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/tile_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/window_data_layer.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/layers/window_data_layer.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/net.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/net.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/parallel.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/parallel.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/sgd_solvers.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/sgd_solvers.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/solver.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/solver.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/solver_factory.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/solver_factory.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/syncedmem.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/syncedmem.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/test/test_caffe_main.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/test/test_caffe_main.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/test/test_gradient_check_util.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/test/test_gradient_check_util.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/util/benchmark.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/util/benchmark.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/util/blocking_queue.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/util/blocking_queue.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/util/cudnn.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/util/cudnn.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/util/db.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/util/db.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/util/db_leveldb.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/util/db_leveldb.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/util/db_lmdb.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/util/db_lmdb.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/util/device_alternate.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/util/device_alternate.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/util/format.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/util/format.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/util/gpu_util.cuh" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/util/gpu_util.cuh" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/util/hdf5.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/util/hdf5.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/util/im2col.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/util/im2col.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/util/insert_splits.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/util/insert_splits.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/util/io.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/util/io.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/util/math_functions.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/util/math_functions.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/util/mkl_alternate.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/util/mkl_alternate.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/util/nccl.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/util/nccl.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/util/nms.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/util/nms.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/util/rng.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/util/rng.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/util/signal_handler.h" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/util/signal_handler.h" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/util/upgrade_proto.hpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/include/caffe/util/upgrade_proto.hpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/+caffe/+test/test_io.m" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/+caffe/+test/test_io.m" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/+caffe/+test/test_net.m" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/+caffe/+test/test_net.m" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/+caffe/+test/test_solver.m" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/+caffe/+test/test_solver.m" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/+caffe/Blob.m" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/+caffe/Blob.m" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/+caffe/Layer.m" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/+caffe/Layer.m" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/+caffe/Net.m" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/+caffe/Net.m" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/+caffe/Solver.m" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/+caffe/Solver.m" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/+caffe/get_net.m" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/+caffe/get_net.m" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/+caffe/get_solver.m" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/+caffe/get_solver.m" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/+caffe/imagenet/ilsvrc_2012_mean.mat" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/+caffe/imagenet/ilsvrc_2012_mean.mat" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/+caffe/io.m" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/+caffe/io.m" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/+caffe/private/CHECK.m" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/+caffe/private/CHECK.m" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/+caffe/private/CHECK_FILE_EXIST.m" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/+caffe/private/CHECK_FILE_EXIST.m" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/+caffe/private/caffe_.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/+caffe/private/caffe_.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/+caffe/private/is_valid_handle.m" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/+caffe/private/is_valid_handle.m" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/+caffe/reset_all.m" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/+caffe/reset_all.m" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/+caffe/run_tests.m" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/+caffe/run_tests.m" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/+caffe/set_device.m" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/+caffe/set_device.m" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/+caffe/set_mode_cpu.m" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/+caffe/set_mode_cpu.m" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/+caffe/set_mode_gpu.m" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/+caffe/set_mode_gpu.m" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/+caffe/version.m" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/+caffe/version.m" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/CMakeLists.txt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/demo/classification_demo.m" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/demo/classification_demo.m" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/hdf5creation/.gitignore" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/hdf5creation/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/hdf5creation/demo.m" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/hdf5creation/demo.m" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/hdf5creation/store2hdf5.m" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/matlab/hdf5creation/store2hdf5.m" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/python/CMakeLists.txt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/python/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/python/caffe/__init__.py" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/python/caffe/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/python/caffe/_caffe.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/python/caffe/_caffe.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/python/caffe/caffe_io.py" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/python/caffe/caffe_io.py" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/python/caffe/classifier.py" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/python/caffe/classifier.py" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/python/caffe/coord_map.py" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/python/caffe/coord_map.py" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/python/caffe/detector.py" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/python/caffe/detector.py" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/python/caffe/draw.py" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/python/caffe/draw.py" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/python/caffe/imagenet/ilsvrc_2012_mean.npy" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/python/caffe/imagenet/ilsvrc_2012_mean.npy" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/python/caffe/net_spec.py" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/python/caffe/net_spec.py" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/python/caffe/pycaffe.py" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/python/caffe/pycaffe.py" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/python/caffe/test/test_coord_map.py" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/python/caffe/test/test_coord_map.py" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/python/caffe/test/test_draw.py" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/python/caffe/test/test_draw.py" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/python/caffe/test/test_io.py" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/python/caffe/test/test_io.py" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/python/caffe/test/test_layer_type_list.py" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/python/caffe/test/test_layer_type_list.py" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/python/caffe/test/test_nccl.py" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/python/caffe/test/test_nccl.py" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/python/caffe/test/test_net.py" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/python/caffe/test/test_net.py" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/python/caffe/test/test_net_spec.py" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/python/caffe/test/test_net_spec.py" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/python/caffe/test/test_python_layer.py" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/python/caffe/test/test_python_layer.py" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/python/caffe/test/test_python_layer_with_param_str.py" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/python/caffe/test/test_python_layer_with_param_str.py" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/python/caffe/test/test_solver.py" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/python/caffe/test/test_solver.py" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/python/requirements.txt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/python/requirements.txt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/python/train.py" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/python/train.py" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/scripts/caffe" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/scripts/caffe" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/scripts/travis/configure-cmake.sh" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/scripts/travis/configure-cmake.sh" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/scripts/travis/configure-make.sh" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/scripts/travis/configure-make.sh" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/CMakeLists.txt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/blob.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/blob.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/common.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/common.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/data_transformer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/data_transformer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/internal_thread.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/internal_thread.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layer_factory.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layer_factory.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/absval_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/absval_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/absval_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/absval_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/accuracy_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/accuracy_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/argmax_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/argmax_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/base_conv_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/base_conv_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/base_data_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/base_data_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/base_data_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/base_data_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/batch_norm_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/batch_norm_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/batch_norm_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/batch_norm_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/batch_reindex_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/batch_reindex_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/batch_reindex_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/batch_reindex_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/bias_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/bias_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/bias_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/bias_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/bnll_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/bnll_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/bnll_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/bnll_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/concat_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/concat_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/concat_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/concat_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/contrastive_loss_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/contrastive_loss_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/contrastive_loss_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/contrastive_loss_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/conv_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/conv_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/conv_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/conv_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/crop_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/crop_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/crop_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/crop_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/cudnn_conv_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/cudnn_conv_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/cudnn_conv_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/cudnn_conv_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/cudnn_lcn_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/cudnn_lcn_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/cudnn_lcn_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/cudnn_lcn_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/cudnn_lrn_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/cudnn_lrn_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/cudnn_lrn_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/cudnn_lrn_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/cudnn_pooling_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/cudnn_pooling_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/cudnn_pooling_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/cudnn_pooling_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/cudnn_relu_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/cudnn_relu_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/cudnn_relu_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/cudnn_relu_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/cudnn_sigmoid_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/cudnn_sigmoid_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/cudnn_sigmoid_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/cudnn_sigmoid_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/cudnn_softmax_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/cudnn_softmax_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/cudnn_softmax_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/cudnn_softmax_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/cudnn_tanh_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/cudnn_tanh_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/cudnn_tanh_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/cudnn_tanh_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/data_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/data_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/deconv_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/deconv_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/deconv_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/deconv_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/dropout_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/dropout_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/dropout_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/dropout_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/dummy_data_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/dummy_data_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/eltwise_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/eltwise_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/eltwise_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/eltwise_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/elu_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/elu_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/elu_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/elu_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/embed_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/embed_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/embed_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/embed_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/euclidean_loss_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/euclidean_loss_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/euclidean_loss_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/euclidean_loss_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/exp_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/exp_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/exp_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/exp_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/filter_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/filter_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/filter_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/filter_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/flatten_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/flatten_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/hdf5_data_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/hdf5_data_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/hdf5_data_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/hdf5_data_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/hdf5_output_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/hdf5_output_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/hdf5_output_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/hdf5_output_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/hinge_loss_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/hinge_loss_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/im2col_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/im2col_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/im2col_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/im2col_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/image_data_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/image_data_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/infogain_loss_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/infogain_loss_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/inner_product_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/inner_product_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/inner_product_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/inner_product_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/input_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/input_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/log_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/log_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/log_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/log_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/loss_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/loss_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/lrn_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/lrn_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/lrn_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/lrn_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/lstm_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/lstm_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/lstm_unit_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/lstm_unit_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/lstm_unit_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/lstm_unit_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/memory_data_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/memory_data_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/multinomial_logistic_loss_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/multinomial_logistic_loss_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/mvn_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/mvn_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/mvn_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/mvn_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/neuron_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/neuron_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/parameter_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/parameter_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/pooling_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/pooling_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/pooling_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/pooling_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/power_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/power_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/power_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/power_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/prelu_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/prelu_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/prelu_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/prelu_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/proposal_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/proposal_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/proposal_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/proposal_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/recurrent_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/recurrent_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/recurrent_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/recurrent_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/reduction_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/reduction_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/reduction_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/reduction_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/relu_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/relu_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/relu_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/relu_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/reshape_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/reshape_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/rnn_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/rnn_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/roi_pooling_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/roi_pooling_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/roi_pooling_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/roi_pooling_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/scale_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/scale_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/scale_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/scale_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/sigmoid_cross_entropy_loss_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/sigmoid_cross_entropy_loss_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/sigmoid_cross_entropy_loss_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/sigmoid_cross_entropy_loss_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/sigmoid_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/sigmoid_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/sigmoid_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/sigmoid_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/silence_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/silence_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/silence_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/silence_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/slice_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/slice_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/slice_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/slice_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/smooth_L1_loss_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/smooth_L1_loss_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/smooth_L1_loss_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/smooth_L1_loss_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/softmax_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/softmax_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/softmax_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/softmax_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/softmax_loss_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/softmax_loss_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/softmax_loss_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/softmax_loss_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/split_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/split_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/split_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/split_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/spp_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/spp_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/tanh_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/tanh_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/tanh_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/tanh_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/threshold_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/threshold_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/threshold_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/threshold_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/tile_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/tile_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/tile_layer.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/tile_layer.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/window_data_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/layers/window_data_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/net.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/net.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/parallel.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/parallel.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/proto/caffe.proto" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/proto/caffe.proto" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/solver.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/solver.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/solvers/adadelta_solver.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/solvers/adadelta_solver.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/solvers/adadelta_solver.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/solvers/adadelta_solver.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/solvers/adagrad_solver.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/solvers/adagrad_solver.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/solvers/adagrad_solver.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/solvers/adagrad_solver.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/solvers/adam_solver.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/solvers/adam_solver.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/solvers/adam_solver.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/solvers/adam_solver.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/solvers/nesterov_solver.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/solvers/nesterov_solver.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/solvers/nesterov_solver.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/solvers/nesterov_solver.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/solvers/rmsprop_solver.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/solvers/rmsprop_solver.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/solvers/rmsprop_solver.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/solvers/rmsprop_solver.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/solvers/sgd_solver.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/solvers/sgd_solver.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/solvers/sgd_solver.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/solvers/sgd_solver.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/syncedmem.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/syncedmem.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/CMakeLists.txt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_accuracy_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_accuracy_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_argmax_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_argmax_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_batch_norm_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_batch_norm_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_batch_reindex_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_batch_reindex_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_benchmark.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_benchmark.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_bias_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_bias_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_blob.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_blob.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_caffe_main.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_caffe_main.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_common.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_common.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_concat_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_concat_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_contrastive_loss_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_contrastive_loss_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_convolution_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_convolution_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_crop_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_crop_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_data/generate_sample_data.py" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_data/generate_sample_data.py" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_data/sample_data.h5" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_data/sample_data.h5" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_data/sample_data_2_gzip.h5" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_data/sample_data_2_gzip.h5" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_data/sample_data_list.txt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_data/sample_data_list.txt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_data/solver_data.h5" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_data/solver_data.h5" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_data/solver_data_list.txt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_data/solver_data_list.txt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_data_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_data_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_data_transformer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_data_transformer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_db.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_db.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_deconvolution_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_deconvolution_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_dummy_data_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_dummy_data_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_eltwise_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_eltwise_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_embed_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_embed_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_euclidean_loss_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_euclidean_loss_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_filler.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_filler.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_filter_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_filter_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_flatten_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_flatten_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_gradient_based_solver.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_gradient_based_solver.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_hdf5_output_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_hdf5_output_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_hdf5data_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_hdf5data_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_hinge_loss_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_hinge_loss_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_im2col_kernel.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_im2col_kernel.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_im2col_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_im2col_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_image_data_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_image_data_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_infogain_loss_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_infogain_loss_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_inner_product_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_inner_product_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_internal_thread.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_internal_thread.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_io.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_io.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_layer_factory.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_layer_factory.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_lrn_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_lrn_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_lstm_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_lstm_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_math_functions.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_math_functions.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_maxpool_dropout_layers.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_maxpool_dropout_layers.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_memory_data_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_memory_data_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_multinomial_logistic_loss_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_multinomial_logistic_loss_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_mvn_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_mvn_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_net.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_net.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_neuron_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_neuron_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_platform.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_platform.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_pooling_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_pooling_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_power_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_power_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_protobuf.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_protobuf.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_random_number_generator.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_random_number_generator.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_reduction_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_reduction_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_reshape_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_reshape_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_rnn_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_rnn_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_scale_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_scale_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_sigmoid_cross_entropy_loss_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_sigmoid_cross_entropy_loss_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_slice_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_slice_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_softmax_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_softmax_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_softmax_with_loss_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_softmax_with_loss_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_solver.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_solver.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_solver_factory.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_solver_factory.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_split_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_split_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_spp_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_spp_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_stochastic_pooling.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_stochastic_pooling.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_syncedmem.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_syncedmem.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_tanh_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_tanh_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_threshold_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_threshold_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_tile_layer.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_tile_layer.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_upgrade_proto.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_upgrade_proto.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_util_blas.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/test/test_util_blas.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/util/benchmark.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/util/benchmark.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/util/blocking_queue.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/util/blocking_queue.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/util/cudnn.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/util/cudnn.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/util/db.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/util/db.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/util/db_leveldb.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/util/db_leveldb.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/util/db_lmdb.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/util/db_lmdb.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/util/hdf5.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/util/hdf5.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/util/im2col.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/util/im2col.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/util/im2col.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/util/im2col.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/util/insert_splits.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/util/insert_splits.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/util/io.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/util/io.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/util/math_functions.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/util/math_functions.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/util/math_functions.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/util/math_functions.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/util/nms.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/util/nms.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/util/nms.cu" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/util/nms.cu" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/util/signal_handler.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/util/signal_handler.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/util/upgrade_proto.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/caffe/util/upgrade_proto.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/gtest/CMakeLists.txt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/gtest/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/gtest/gtest-all.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/gtest/gtest-all.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/gtest/gtest.h" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/gtest/gtest.h" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/src/gtest/gtest_main.cc" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/src/gtest/gtest_main.cc" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/tools/CMakeLists.txt" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/tools/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/tools/caffe.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/tools/caffe.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/tools/compute_image_mean.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/tools/compute_image_mean.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/tools/convert_imageset.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/tools/convert_imageset.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/tools/device_query.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/tools/device_query.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/tools/extra/plot_log.gnuplot.example" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/tools/extra/plot_log.gnuplot.example" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/tools/extract_features.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/tools/extract_features.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/tools/finetune_net.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/tools/finetune_net.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/tools/net_speed_benchmark.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/tools/net_speed_benchmark.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/tools/test_net.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/tools/test_net.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/tools/train_net.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/tools/train_net.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/tools/upgrade_net_proto_binary.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/tools/upgrade_net_proto_binary.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/tools/upgrade_net_proto_text.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/tools/upgrade_net_proto_text.cpp" />
-      <change beforePath="$PROJECT_DIR$/caffe-fast-rcnn/tools/upgrade_solver_proto_text.cpp" afterPath="$PROJECT_DIR$/caffe-fast-rcnn/tools/upgrade_solver_proto_text.cpp" />
-      <change beforePath="$PROJECT_DIR$/data/.gitignore" afterPath="$PROJECT_DIR$/data/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/data/README.md" afterPath="$PROJECT_DIR$/data/README.md" />
-      <change beforePath="$PROJECT_DIR$/data/Train/Annotations/627652acb1d6ea5dbb2b1cd7d42cc912.jpg.txt" afterPath="$PROJECT_DIR$/data/Train/Annotations/627652acb1d6ea5dbb2b1cd7d42cc912.jpg.txt" />
-      <change beforePath="$PROJECT_DIR$/data/Train/Images/627652acb1d6ea5dbb2b1cd7d42cc912.jpg" afterPath="$PROJECT_DIR$/data/Train/Images/627652acb1d6ea5dbb2b1cd7d42cc912.jpg" />
-      <change beforePath="$PROJECT_DIR$/data/Train/Train.txt" afterPath="$PROJECT_DIR$/data/Train/Train.txt" />
-      <change beforePath="$PROJECT_DIR$/data/demo/000456.jpg" afterPath="$PROJECT_DIR$/data/demo/000456.jpg" />
-      <change beforePath="$PROJECT_DIR$/data/demo/000542.jpg" afterPath="$PROJECT_DIR$/data/demo/000542.jpg" />
-      <change beforePath="$PROJECT_DIR$/data/demo/001150.jpg" afterPath="$PROJECT_DIR$/data/demo/001150.jpg" />
-      <change beforePath="$PROJECT_DIR$/data/demo/001763.jpg" afterPath="$PROJECT_DIR$/data/demo/001763.jpg" />
-      <change beforePath="$PROJECT_DIR$/data/demo/004545.jpg" afterPath="$PROJECT_DIR$/data/demo/004545.jpg" />
-      <change beforePath="$PROJECT_DIR$/data/pylintrc" afterPath="$PROJECT_DIR$/data/pylintrc" />
-      <change beforePath="$PROJECT_DIR$/experiments/README.md" afterPath="$PROJECT_DIR$/experiments/README.md" />
-      <change beforePath="$PROJECT_DIR$/experiments/cfgs/faster_rcnn_alt_opt.yml" afterPath="$PROJECT_DIR$/experiments/cfgs/faster_rcnn_alt_opt.yml" />
-      <change beforePath="$PROJECT_DIR$/experiments/cfgs/faster_rcnn_end2end.yml" afterPath="$PROJECT_DIR$/experiments/cfgs/faster_rcnn_end2end.yml" />
-      <change beforePath="$PROJECT_DIR$/experiments/logs/.gitignore" afterPath="$PROJECT_DIR$/experiments/logs/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/install/install.sh" afterPath="$PROJECT_DIR$/install/install.sh" />
-      <change beforePath="$PROJECT_DIR$/lib/.cache/v/cache/lastfailed" afterPath="$PROJECT_DIR$/lib/.cache/v/cache/lastfailed" />
-      <change beforePath="$PROJECT_DIR$/lib/Makefile" afterPath="$PROJECT_DIR$/lib/Makefile" />
-      <change beforePath="$PROJECT_DIR$/lib/fast_rcnn/__init__.py" afterPath="$PROJECT_DIR$/lib/fast_rcnn/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/lib/fast_rcnn/bbox_transform.py" afterPath="$PROJECT_DIR$/lib/fast_rcnn/bbox_transform.py" />
-      <change beforePath="$PROJECT_DIR$/lib/fast_rcnn/build/temp.win-amd64-3.6/Release/nms/cpu_nms.cp36-win_amd64.exp" afterPath="$PROJECT_DIR$/lib/fast_rcnn/build/temp.win-amd64-3.6/Release/nms/cpu_nms.cp36-win_amd64.exp" />
-      <change beforePath="$PROJECT_DIR$/lib/fast_rcnn/build/temp.win-amd64-3.6/Release/nms/cpu_nms.cp36-win_amd64.lib" afterPath="$PROJECT_DIR$/lib/fast_rcnn/build/temp.win-amd64-3.6/Release/nms/cpu_nms.cp36-win_amd64.lib" />
-      <change beforePath="$PROJECT_DIR$/lib/fast_rcnn/build/temp.win-amd64-3.6/Release/nms/cpu_nms.obj" afterPath="$PROJECT_DIR$/lib/fast_rcnn/build/temp.win-amd64-3.6/Release/nms/cpu_nms.obj" />
-      <change beforePath="$PROJECT_DIR$/lib/fast_rcnn/build/temp.win-amd64-3.6/Release/utils/bbox.obj" afterPath="$PROJECT_DIR$/lib/fast_rcnn/build/temp.win-amd64-3.6/Release/utils/bbox.obj" />
-      <change beforePath="$PROJECT_DIR$/lib/fast_rcnn/build/temp.win-amd64-3.6/Release/utils/cython_bbox.cp36-win_amd64.exp" afterPath="$PROJECT_DIR$/lib/fast_rcnn/build/temp.win-amd64-3.6/Release/utils/cython_bbox.cp36-win_amd64.exp" />
-      <change beforePath="$PROJECT_DIR$/lib/fast_rcnn/build/temp.win-amd64-3.6/Release/utils/cython_bbox.cp36-win_amd64.lib" afterPath="$PROJECT_DIR$/lib/fast_rcnn/build/temp.win-amd64-3.6/Release/utils/cython_bbox.cp36-win_amd64.lib" />
       <change beforePath="$PROJECT_DIR$/lib/fast_rcnn/config.py" afterPath="$PROJECT_DIR$/lib/fast_rcnn/config.py" />
-      <change beforePath="$PROJECT_DIR$/lib/fast_rcnn/datasets/VOCdevkit-matlab-wrapper/get_voc_opts.m" afterPath="$PROJECT_DIR$/lib/fast_rcnn/datasets/VOCdevkit-matlab-wrapper/get_voc_opts.m" />
-      <change beforePath="$PROJECT_DIR$/lib/fast_rcnn/datasets/VOCdevkit-matlab-wrapper/voc_eval.m" afterPath="$PROJECT_DIR$/lib/fast_rcnn/datasets/VOCdevkit-matlab-wrapper/voc_eval.m" />
-      <change beforePath="$PROJECT_DIR$/lib/fast_rcnn/datasets/VOCdevkit-matlab-wrapper/xVOCap.m" afterPath="$PROJECT_DIR$/lib/fast_rcnn/datasets/VOCdevkit-matlab-wrapper/xVOCap.m" />
-      <change beforePath="$PROJECT_DIR$/lib/fast_rcnn/datasets/__init__.py" afterPath="$PROJECT_DIR$/lib/fast_rcnn/datasets/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/lib/fast_rcnn/datasets/coco.py" afterPath="$PROJECT_DIR$/lib/fast_rcnn/datasets/coco.py" />
-      <change beforePath="$PROJECT_DIR$/lib/fast_rcnn/datasets/ds_utils.py" afterPath="$PROJECT_DIR$/lib/fast_rcnn/datasets/ds_utils.py" />
-      <change beforePath="$PROJECT_DIR$/lib/fast_rcnn/datasets/factory.py" afterPath="$PROJECT_DIR$/lib/fast_rcnn/datasets/factory.py" />
-      <change beforePath="$PROJECT_DIR$/lib/fast_rcnn/datasets/imdb.py" afterPath="$PROJECT_DIR$/lib/fast_rcnn/datasets/imdb.py" />
-      <change beforePath="$PROJECT_DIR$/lib/fast_rcnn/datasets/number_detection.py" afterPath="$PROJECT_DIR$/lib/fast_rcnn/datasets/number_detection.py" />
-      <change beforePath="$PROJECT_DIR$/lib/fast_rcnn/datasets/pascal_voc.py" afterPath="$PROJECT_DIR$/lib/fast_rcnn/datasets/pascal_voc.py" />
-      <change beforePath="$PROJECT_DIR$/lib/fast_rcnn/datasets/pascal_voc_mouse.py" afterPath="$PROJECT_DIR$/lib/fast_rcnn/datasets/pascal_voc_mouse.py" />
-      <change beforePath="$PROJECT_DIR$/lib/fast_rcnn/datasets/tools/mcg_munge.py" afterPath="$PROJECT_DIR$/lib/fast_rcnn/datasets/tools/mcg_munge.py" />
-      <change beforePath="$PROJECT_DIR$/lib/fast_rcnn/datasets/voc_eval.py" afterPath="$PROJECT_DIR$/lib/fast_rcnn/datasets/voc_eval.py" />
-      <change beforePath="$PROJECT_DIR$/lib/fast_rcnn/easydict/__init__.py" afterPath="$PROJECT_DIR$/lib/fast_rcnn/easydict/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/lib/fast_rcnn/nms_wrapper.py" afterPath="$PROJECT_DIR$/lib/fast_rcnn/nms_wrapper.py" />
-      <change beforePath="$PROJECT_DIR$/lib/fast_rcnn/test.py" afterPath="$PROJECT_DIR$/lib/fast_rcnn/test.py" />
-      <change beforePath="$PROJECT_DIR$/lib/fast_rcnn/train.py" afterPath="$PROJECT_DIR$/lib/fast_rcnn/train.py" />
-      <change beforePath="$PROJECT_DIR$/lib/fast_rcnn/tsr_test.py" afterPath="$PROJECT_DIR$/lib/fast_rcnn/tsr_test.py" />
-      <change beforePath="$PROJECT_DIR$/lib/fast_rfcn/__init__.py" afterPath="$PROJECT_DIR$/lib/fast_rfcn/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/lib/fast_rfcn/bbox_transform.py" afterPath="$PROJECT_DIR$/lib/fast_rfcn/bbox_transform.py" />
-      <change beforePath="$PROJECT_DIR$/lib/fast_rfcn/config.py" afterPath="$PROJECT_DIR$/lib/fast_rfcn/config.py" />
-      <change beforePath="$PROJECT_DIR$/lib/fast_rfcn/datasets/VOCdevkit-matlab-wrapper/get_voc_opts.m" afterPath="$PROJECT_DIR$/lib/fast_rfcn/datasets/VOCdevkit-matlab-wrapper/get_voc_opts.m" />
-      <change beforePath="$PROJECT_DIR$/lib/fast_rfcn/datasets/VOCdevkit-matlab-wrapper/voc_eval.m" afterPath="$PROJECT_DIR$/lib/fast_rfcn/datasets/VOCdevkit-matlab-wrapper/voc_eval.m" />
-      <change beforePath="$PROJECT_DIR$/lib/fast_rfcn/datasets/VOCdevkit-matlab-wrapper/xVOCap.m" afterPath="$PROJECT_DIR$/lib/fast_rfcn/datasets/VOCdevkit-matlab-wrapper/xVOCap.m" />
-      <change beforePath="$PROJECT_DIR$/lib/fast_rfcn/datasets/__init__.py" afterPath="$PROJECT_DIR$/lib/fast_rfcn/datasets/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/lib/fast_rfcn/datasets/coco.py" afterPath="$PROJECT_DIR$/lib/fast_rfcn/datasets/coco.py" />
-      <change beforePath="$PROJECT_DIR$/lib/fast_rfcn/datasets/ds_utils.py" afterPath="$PROJECT_DIR$/lib/fast_rfcn/datasets/ds_utils.py" />
-      <change beforePath="$PROJECT_DIR$/lib/fast_rfcn/datasets/factory.py" afterPath="$PROJECT_DIR$/lib/fast_rfcn/datasets/factory.py" />
-      <change beforePath="$PROJECT_DIR$/lib/fast_rfcn/datasets/imdb.py" afterPath="$PROJECT_DIR$/lib/fast_rfcn/datasets/imdb.py" />
-      <change beforePath="$PROJECT_DIR$/lib/fast_rfcn/datasets/pascal_voc.py" afterPath="$PROJECT_DIR$/lib/fast_rfcn/datasets/pascal_voc.py" />
-      <change beforePath="$PROJECT_DIR$/lib/fast_rfcn/datasets/tools/mcg_munge.py" afterPath="$PROJECT_DIR$/lib/fast_rfcn/datasets/tools/mcg_munge.py" />
-      <change beforePath="$PROJECT_DIR$/lib/fast_rfcn/datasets/voc_eval.py" afterPath="$PROJECT_DIR$/lib/fast_rfcn/datasets/voc_eval.py" />
-      <change beforePath="$PROJECT_DIR$/lib/fast_rfcn/nms_wrapper.py" afterPath="$PROJECT_DIR$/lib/fast_rfcn/nms_wrapper.py" />
-      <change beforePath="$PROJECT_DIR$/lib/fast_rfcn/test.py" afterPath="$PROJECT_DIR$/lib/fast_rfcn/test.py" />
-      <change beforePath="$PROJECT_DIR$/lib/fast_rfcn/train.py" afterPath="$PROJECT_DIR$/lib/fast_rfcn/train.py" />
-      <change beforePath="$PROJECT_DIR$/lib/nms/.gitignore" afterPath="$PROJECT_DIR$/lib/nms/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/lib/nms/__init__.py" afterPath="$PROJECT_DIR$/lib/nms/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/lib/nms/cpu_nms.cp36-win_amd64.pyd" afterPath="$PROJECT_DIR$/lib/nms/cpu_nms.cp36-win_amd64.pyd" />
-      <change beforePath="$PROJECT_DIR$/lib/nms/cpu_nms.pyx" afterPath="$PROJECT_DIR$/lib/nms/cpu_nms.pyx" />
-      <change beforePath="$PROJECT_DIR$/lib/nms/gpu_nms.cp36-win_amd64.pyd" afterPath="$PROJECT_DIR$/lib/nms/gpu_nms.cp36-win_amd64.pyd" />
-      <change beforePath="$PROJECT_DIR$/lib/nms/gpu_nms.hpp" afterPath="$PROJECT_DIR$/lib/nms/gpu_nms.hpp" />
-      <change beforePath="$PROJECT_DIR$/lib/nms/gpu_nms.pyx" afterPath="$PROJECT_DIR$/lib/nms/gpu_nms.pyx" />
-      <change beforePath="$PROJECT_DIR$/lib/nms/nms_kernel.cu" afterPath="$PROJECT_DIR$/lib/nms/nms_kernel.cu" />
-      <change beforePath="$PROJECT_DIR$/lib/nms/py_cpu_nms.py" afterPath="$PROJECT_DIR$/lib/nms/py_cpu_nms.py" />
-      <change beforePath="$PROJECT_DIR$/lib/pycocotools/UPSTREAM_REV" afterPath="$PROJECT_DIR$/lib/pycocotools/UPSTREAM_REV" />
-      <change beforePath="$PROJECT_DIR$/lib/pycocotools/__init__.py" afterPath="$PROJECT_DIR$/lib/pycocotools/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/lib/pycocotools/_mask.c" afterPath="$PROJECT_DIR$/lib/pycocotools/_mask.c" />
-      <change beforePath="$PROJECT_DIR$/lib/pycocotools/_mask.cp36-win_amd64.pyd" afterPath="$PROJECT_DIR$/lib/pycocotools/_mask.cp36-win_amd64.pyd" />
-      <change beforePath="$PROJECT_DIR$/lib/pycocotools/_mask.cpython-36m-x86_64-linux-gnu.so" afterPath="$PROJECT_DIR$/lib/pycocotools/_mask.cpython-36m-x86_64-linux-gnu.so" />
-      <change beforePath="$PROJECT_DIR$/lib/pycocotools/_mask.pyx" afterPath="$PROJECT_DIR$/lib/pycocotools/_mask.pyx" />
-      <change beforePath="$PROJECT_DIR$/lib/pycocotools/coco.py" afterPath="$PROJECT_DIR$/lib/pycocotools/coco.py" />
-      <change beforePath="$PROJECT_DIR$/lib/pycocotools/cocoeval.py" afterPath="$PROJECT_DIR$/lib/pycocotools/cocoeval.py" />
-      <change beforePath="$PROJECT_DIR$/lib/pycocotools/license.txt" afterPath="$PROJECT_DIR$/lib/pycocotools/license.txt" />
-      <change beforePath="$PROJECT_DIR$/lib/pycocotools/mask.py" afterPath="$PROJECT_DIR$/lib/pycocotools/mask.py" />
-      <change beforePath="$PROJECT_DIR$/lib/pycocotools/maskApi.c" afterPath="$PROJECT_DIR$/lib/pycocotools/maskApi.c" />
-      <change beforePath="$PROJECT_DIR$/lib/pycocotools/maskApi.h" afterPath="$PROJECT_DIR$/lib/pycocotools/maskApi.h" />
-      <change beforePath="$PROJECT_DIR$/lib/roi_data_layer/__init__.py" afterPath="$PROJECT_DIR$/lib/roi_data_layer/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/lib/roi_data_layer/layer.py" afterPath="$PROJECT_DIR$/lib/roi_data_layer/layer.py" />
-      <change beforePath="$PROJECT_DIR$/lib/roi_data_layer/minibatch.py" afterPath="$PROJECT_DIR$/lib/roi_data_layer/minibatch.py" />
-      <change beforePath="$PROJECT_DIR$/lib/roi_data_layer/roidb.py" afterPath="$PROJECT_DIR$/lib/roi_data_layer/roidb.py" />
-      <change beforePath="$PROJECT_DIR$/lib/rpn/README.md" afterPath="$PROJECT_DIR$/lib/rpn/README.md" />
-      <change beforePath="$PROJECT_DIR$/lib/rpn/__init__.py" afterPath="$PROJECT_DIR$/lib/rpn/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/lib/rpn/anchor_target_layer.py" afterPath="$PROJECT_DIR$/lib/rpn/anchor_target_layer.py" />
-      <change beforePath="$PROJECT_DIR$/lib/rpn/generate.py" afterPath="$PROJECT_DIR$/lib/rpn/generate.py" />
-      <change beforePath="$PROJECT_DIR$/lib/rpn/generate_anchors.py" afterPath="$PROJECT_DIR$/lib/rpn/generate_anchors.py" />
-      <change beforePath="$PROJECT_DIR$/lib/rpn/proposal_layer.py" afterPath="$PROJECT_DIR$/lib/rpn/proposal_layer.py" />
-      <change beforePath="$PROJECT_DIR$/lib/rpn/proposal_target_layer.py" afterPath="$PROJECT_DIR$/lib/rpn/proposal_target_layer.py" />
-      <change beforePath="$PROJECT_DIR$/lib/setup.py" afterPath="$PROJECT_DIR$/lib/setup.py" />
-      <change beforePath="$PROJECT_DIR$/lib/setup_cuda.py" afterPath="$PROJECT_DIR$/lib/setup_cuda.py" />
-      <change beforePath="$PROJECT_DIR$/lib/setup_linux.py" afterPath="$PROJECT_DIR$/lib/setup_linux.py" />
-      <change beforePath="$PROJECT_DIR$/lib/transform/__init__.py" afterPath="$PROJECT_DIR$/lib/transform/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/lib/transform/torch_image_transform_layer.py" afterPath="$PROJECT_DIR$/lib/transform/torch_image_transform_layer.py" />
-      <change beforePath="$PROJECT_DIR$/lib/utils/.gitignore" afterPath="$PROJECT_DIR$/lib/utils/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/lib/utils/__init__.py" afterPath="$PROJECT_DIR$/lib/utils/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/lib/utils/bbox.pyx" afterPath="$PROJECT_DIR$/lib/utils/bbox.pyx" />
-      <change beforePath="$PROJECT_DIR$/lib/utils/blob.py" afterPath="$PROJECT_DIR$/lib/utils/blob.py" />
-      <change beforePath="$PROJECT_DIR$/lib/utils/cython_bbox.cp36-win_amd64.pyd" afterPath="$PROJECT_DIR$/lib/utils/cython_bbox.cp36-win_amd64.pyd" />
-      <change beforePath="$PROJECT_DIR$/lib/utils/timer.py" afterPath="$PROJECT_DIR$/lib/utils/timer.py" />
-      <change beforePath="$PROJECT_DIR$/models/README.md" afterPath="$PROJECT_DIR$/models/README.md" />
-      <change beforePath="$PROJECT_DIR$/models/coco/VGG16/fast_rcnn/solver.prototxt" afterPath="$PROJECT_DIR$/models/coco/VGG16/fast_rcnn/solver.prototxt" />
-      <change beforePath="$PROJECT_DIR$/models/coco/VGG16/fast_rcnn/test.prototxt" afterPath="$PROJECT_DIR$/models/coco/VGG16/fast_rcnn/test.prototxt" />
-      <change beforePath="$PROJECT_DIR$/models/coco/VGG16/fast_rcnn/train.prototxt" afterPath="$PROJECT_DIR$/models/coco/VGG16/fast_rcnn/train.prototxt" />
-      <change beforePath="$PROJECT_DIR$/models/coco/VGG16/faster_rcnn_end2end/solver.prototxt" afterPath="$PROJECT_DIR$/models/coco/VGG16/faster_rcnn_end2end/solver.prototxt" />
-      <change beforePath="$PROJECT_DIR$/models/coco/VGG16/faster_rcnn_end2end/test.prototxt" afterPath="$PROJECT_DIR$/models/coco/VGG16/faster_rcnn_end2end/test.prototxt" />
-      <change beforePath="$PROJECT_DIR$/models/coco/VGG16/faster_rcnn_end2end/train.prototxt" afterPath="$PROJECT_DIR$/models/coco/VGG16/faster_rcnn_end2end/train.prototxt" />
-      <change beforePath="$PROJECT_DIR$/models/coco/VGG_CNN_M_1024/fast_rcnn/solver.prototxt" afterPath="$PROJECT_DIR$/models/coco/VGG_CNN_M_1024/fast_rcnn/solver.prototxt" />
-      <change beforePath="$PROJECT_DIR$/models/coco/VGG_CNN_M_1024/fast_rcnn/test.prototxt" afterPath="$PROJECT_DIR$/models/coco/VGG_CNN_M_1024/fast_rcnn/test.prototxt" />
-      <change beforePath="$PROJECT_DIR$/models/coco/VGG_CNN_M_1024/fast_rcnn/train.prototxt" afterPath="$PROJECT_DIR$/models/coco/VGG_CNN_M_1024/fast_rcnn/train.prototxt" />
-      <change beforePath="$PROJECT_DIR$/models/coco/VGG_CNN_M_1024/faster_rcnn_end2end/solver.prototxt" afterPath="$PROJECT_DIR$/models/coco/VGG_CNN_M_1024/faster_rcnn_end2end/solver.prototxt" />
-      <change beforePath="$PROJECT_DIR$/models/coco/VGG_CNN_M_1024/faster_rcnn_end2end/test.prototxt" afterPath="$PROJECT_DIR$/models/coco/VGG_CNN_M_1024/faster_rcnn_end2end/test.prototxt" />
-      <change beforePath="$PROJECT_DIR$/models/coco/VGG_CNN_M_1024/faster_rcnn_end2end/train.prototxt" afterPath="$PROJECT_DIR$/models/coco/VGG_CNN_M_1024/faster_rcnn_end2end/train.prototxt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/VGG16/fast_rcnn/solver.prototxt" afterPath="$PROJECT_DIR$/models/pascal_voc/VGG16/fast_rcnn/solver.prototxt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/VGG16/fast_rcnn/test.prototxt" afterPath="$PROJECT_DIR$/models/pascal_voc/VGG16/fast_rcnn/test.prototxt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/VGG16/fast_rcnn/train.prototxt" afterPath="$PROJECT_DIR$/models/pascal_voc/VGG16/fast_rcnn/train.prototxt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/VGG16/faster_rcnn_alt_opt/faster_rcnn_test.pt" afterPath="$PROJECT_DIR$/models/pascal_voc/VGG16/faster_rcnn_alt_opt/faster_rcnn_test.pt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/VGG16/faster_rcnn_alt_opt/rpn_test.pt" afterPath="$PROJECT_DIR$/models/pascal_voc/VGG16/faster_rcnn_alt_opt/rpn_test.pt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/VGG16/faster_rcnn_alt_opt/stage1_fast_rcnn_solver30k40k.pt" afterPath="$PROJECT_DIR$/models/pascal_voc/VGG16/faster_rcnn_alt_opt/stage1_fast_rcnn_solver30k40k.pt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/VGG16/faster_rcnn_alt_opt/stage1_fast_rcnn_train.pt" afterPath="$PROJECT_DIR$/models/pascal_voc/VGG16/faster_rcnn_alt_opt/stage1_fast_rcnn_train.pt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/VGG16/faster_rcnn_alt_opt/stage1_rpn_solver60k80k.pt" afterPath="$PROJECT_DIR$/models/pascal_voc/VGG16/faster_rcnn_alt_opt/stage1_rpn_solver60k80k.pt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/VGG16/faster_rcnn_alt_opt/stage1_rpn_train.pt" afterPath="$PROJECT_DIR$/models/pascal_voc/VGG16/faster_rcnn_alt_opt/stage1_rpn_train.pt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/VGG16/faster_rcnn_alt_opt/stage2_fast_rcnn_solver30k40k.pt" afterPath="$PROJECT_DIR$/models/pascal_voc/VGG16/faster_rcnn_alt_opt/stage2_fast_rcnn_solver30k40k.pt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/VGG16/faster_rcnn_alt_opt/stage2_fast_rcnn_train.pt" afterPath="$PROJECT_DIR$/models/pascal_voc/VGG16/faster_rcnn_alt_opt/stage2_fast_rcnn_train.pt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/VGG16/faster_rcnn_alt_opt/stage2_rpn_solver60k80k.pt" afterPath="$PROJECT_DIR$/models/pascal_voc/VGG16/faster_rcnn_alt_opt/stage2_rpn_solver60k80k.pt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/VGG16/faster_rcnn_alt_opt/stage2_rpn_train.pt" afterPath="$PROJECT_DIR$/models/pascal_voc/VGG16/faster_rcnn_alt_opt/stage2_rpn_train.pt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/VGG16/faster_rcnn_end2end/solver.prototxt" afterPath="$PROJECT_DIR$/models/pascal_voc/VGG16/faster_rcnn_end2end/solver.prototxt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/VGG16/faster_rcnn_end2end/test.prototxt" afterPath="$PROJECT_DIR$/models/pascal_voc/VGG16/faster_rcnn_end2end/test.prototxt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/VGG16/faster_rcnn_end2end/train.prototxt" afterPath="$PROJECT_DIR$/models/pascal_voc/VGG16/faster_rcnn_end2end/train.prototxt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/VGG_CNN_M_1024/fast_rcnn/solver.prototxt" afterPath="$PROJECT_DIR$/models/pascal_voc/VGG_CNN_M_1024/fast_rcnn/solver.prototxt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/VGG_CNN_M_1024/fast_rcnn/test.prototxt" afterPath="$PROJECT_DIR$/models/pascal_voc/VGG_CNN_M_1024/fast_rcnn/test.prototxt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/VGG_CNN_M_1024/fast_rcnn/train.prototxt" afterPath="$PROJECT_DIR$/models/pascal_voc/VGG_CNN_M_1024/fast_rcnn/train.prototxt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/VGG_CNN_M_1024/faster_rcnn_alt_opt/faster_rcnn_test.pt" afterPath="$PROJECT_DIR$/models/pascal_voc/VGG_CNN_M_1024/faster_rcnn_alt_opt/faster_rcnn_test.pt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/VGG_CNN_M_1024/faster_rcnn_alt_opt/rpn_test.pt" afterPath="$PROJECT_DIR$/models/pascal_voc/VGG_CNN_M_1024/faster_rcnn_alt_opt/rpn_test.pt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/VGG_CNN_M_1024/faster_rcnn_alt_opt/stage1_fast_rcnn_solver30k40k.pt" afterPath="$PROJECT_DIR$/models/pascal_voc/VGG_CNN_M_1024/faster_rcnn_alt_opt/stage1_fast_rcnn_solver30k40k.pt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/VGG_CNN_M_1024/faster_rcnn_alt_opt/stage1_fast_rcnn_train.pt" afterPath="$PROJECT_DIR$/models/pascal_voc/VGG_CNN_M_1024/faster_rcnn_alt_opt/stage1_fast_rcnn_train.pt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/VGG_CNN_M_1024/faster_rcnn_alt_opt/stage1_rpn_solver60k80k.pt" afterPath="$PROJECT_DIR$/models/pascal_voc/VGG_CNN_M_1024/faster_rcnn_alt_opt/stage1_rpn_solver60k80k.pt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/VGG_CNN_M_1024/faster_rcnn_alt_opt/stage1_rpn_train.pt" afterPath="$PROJECT_DIR$/models/pascal_voc/VGG_CNN_M_1024/faster_rcnn_alt_opt/stage1_rpn_train.pt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/VGG_CNN_M_1024/faster_rcnn_alt_opt/stage2_fast_rcnn_solver30k40k.pt" afterPath="$PROJECT_DIR$/models/pascal_voc/VGG_CNN_M_1024/faster_rcnn_alt_opt/stage2_fast_rcnn_solver30k40k.pt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/VGG_CNN_M_1024/faster_rcnn_alt_opt/stage2_fast_rcnn_train.pt" afterPath="$PROJECT_DIR$/models/pascal_voc/VGG_CNN_M_1024/faster_rcnn_alt_opt/stage2_fast_rcnn_train.pt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/VGG_CNN_M_1024/faster_rcnn_alt_opt/stage2_rpn_solver60k80k.pt" afterPath="$PROJECT_DIR$/models/pascal_voc/VGG_CNN_M_1024/faster_rcnn_alt_opt/stage2_rpn_solver60k80k.pt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/VGG_CNN_M_1024/faster_rcnn_alt_opt/stage2_rpn_train.pt" afterPath="$PROJECT_DIR$/models/pascal_voc/VGG_CNN_M_1024/faster_rcnn_alt_opt/stage2_rpn_train.pt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/VGG_CNN_M_1024/faster_rcnn_end2end/solver.prototxt" afterPath="$PROJECT_DIR$/models/pascal_voc/VGG_CNN_M_1024/faster_rcnn_end2end/solver.prototxt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/VGG_CNN_M_1024/faster_rcnn_end2end/test.prototxt" afterPath="$PROJECT_DIR$/models/pascal_voc/VGG_CNN_M_1024/faster_rcnn_end2end/test.prototxt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/VGG_CNN_M_1024/faster_rcnn_end2end/train.prototxt" afterPath="$PROJECT_DIR$/models/pascal_voc/VGG_CNN_M_1024/faster_rcnn_end2end/train.prototxt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/ZF/fast_rcnn/solver.prototxt" afterPath="$PROJECT_DIR$/models/pascal_voc/ZF/fast_rcnn/solver.prototxt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/ZF/fast_rcnn/test.prototxt" afterPath="$PROJECT_DIR$/models/pascal_voc/ZF/fast_rcnn/test.prototxt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/ZF/fast_rcnn/train.prototxt" afterPath="$PROJECT_DIR$/models/pascal_voc/ZF/fast_rcnn/train.prototxt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/ZF/faster_rcnn_alt_opt/faster_rcnn_test.pt" afterPath="$PROJECT_DIR$/models/pascal_voc/ZF/faster_rcnn_alt_opt/faster_rcnn_test.pt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/ZF/faster_rcnn_alt_opt/rpn_test.pt" afterPath="$PROJECT_DIR$/models/pascal_voc/ZF/faster_rcnn_alt_opt/rpn_test.pt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/ZF/faster_rcnn_alt_opt/stage1_fast_rcnn_solver30k40k.pt" afterPath="$PROJECT_DIR$/models/pascal_voc/ZF/faster_rcnn_alt_opt/stage1_fast_rcnn_solver30k40k.pt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/ZF/faster_rcnn_alt_opt/stage1_fast_rcnn_train.pt" afterPath="$PROJECT_DIR$/models/pascal_voc/ZF/faster_rcnn_alt_opt/stage1_fast_rcnn_train.pt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/ZF/faster_rcnn_alt_opt/stage1_rpn_solver60k80k.pt" afterPath="$PROJECT_DIR$/models/pascal_voc/ZF/faster_rcnn_alt_opt/stage1_rpn_solver60k80k.pt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/ZF/faster_rcnn_alt_opt/stage1_rpn_train.pt" afterPath="$PROJECT_DIR$/models/pascal_voc/ZF/faster_rcnn_alt_opt/stage1_rpn_train.pt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/ZF/faster_rcnn_alt_opt/stage2_fast_rcnn_solver30k40k.pt" afterPath="$PROJECT_DIR$/models/pascal_voc/ZF/faster_rcnn_alt_opt/stage2_fast_rcnn_solver30k40k.pt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/ZF/faster_rcnn_alt_opt/stage2_fast_rcnn_train.pt" afterPath="$PROJECT_DIR$/models/pascal_voc/ZF/faster_rcnn_alt_opt/stage2_fast_rcnn_train.pt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/ZF/faster_rcnn_alt_opt/stage2_rpn_solver60k80k.pt" afterPath="$PROJECT_DIR$/models/pascal_voc/ZF/faster_rcnn_alt_opt/stage2_rpn_solver60k80k.pt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/ZF/faster_rcnn_alt_opt/stage2_rpn_train.pt" afterPath="$PROJECT_DIR$/models/pascal_voc/ZF/faster_rcnn_alt_opt/stage2_rpn_train.pt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/ZF/faster_rcnn_end2end/solver.prototxt" afterPath="$PROJECT_DIR$/models/pascal_voc/ZF/faster_rcnn_end2end/solver.prototxt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/ZF/faster_rcnn_end2end/test.prototxt" afterPath="$PROJECT_DIR$/models/pascal_voc/ZF/faster_rcnn_end2end/test.prototxt" />
-      <change beforePath="$PROJECT_DIR$/models/pascal_voc/ZF/faster_rcnn_end2end/train.prototxt" afterPath="$PROJECT_DIR$/models/pascal_voc/ZF/faster_rcnn_end2end/train.prototxt" />
-      <change beforePath="$PROJECT_DIR$/models/pvanet/cfgs/submit_0716.yml" afterPath="$PROJECT_DIR$/models/pvanet/cfgs/submit_0716.yml" />
-      <change beforePath="$PROJECT_DIR$/models/pvanet/cfgs/submit_1019.yml" afterPath="$PROJECT_DIR$/models/pvanet/cfgs/submit_1019.yml" />
-      <change beforePath="$PROJECT_DIR$/models/pvanet/cfgs/train.yml" afterPath="$PROJECT_DIR$/models/pvanet/cfgs/train.yml" />
-      <change beforePath="$PROJECT_DIR$/models/pvanet/example_train/README.md" afterPath="$PROJECT_DIR$/models/pvanet/example_train/README.md" />
-      <change beforePath="$PROJECT_DIR$/models/pvanet/example_train/solver.prototxt" afterPath="$PROJECT_DIR$/models/pvanet/example_train/solver.prototxt" />
-      <change beforePath="$PROJECT_DIR$/models/pvanet/example_train/test.prototxt" afterPath="$PROJECT_DIR$/models/pvanet/example_train/test.prototxt" />
       <change beforePath="$PROJECT_DIR$/models/pvanet/example_train/train.prototxt" afterPath="$PROJECT_DIR$/models/pvanet/example_train/train.prototxt" />
-      <change beforePath="$PROJECT_DIR$/models/pvanet/imagenet/descriptions.txt" afterPath="$PROJECT_DIR$/models/pvanet/imagenet/descriptions.txt" />
-      <change beforePath="$PROJECT_DIR$/models/pvanet/imagenet/pva9.1_preAct_test.prototxt" afterPath="$PROJECT_DIR$/models/pvanet/imagenet/pva9.1_preAct_test.prototxt" />
-      <change beforePath="$PROJECT_DIR$/models/pvanet/pva9.1/faster_rcnn_train_test_21cls.pt" afterPath="$PROJECT_DIR$/models/pvanet/pva9.1/faster_rcnn_train_test_21cls.pt" />
-      <change beforePath="$PROJECT_DIR$/models/pvanet/pva9.1/faster_rcnn_train_test_ft_rcnn_only_plus_comp.pt" afterPath="$PROJECT_DIR$/models/pvanet/pva9.1/faster_rcnn_train_test_ft_rcnn_only_plus_comp.pt" />
-      <change beforePath="$PROJECT_DIR$/models/pvanet_obsolete/cfgs/100prop.yml" afterPath="$PROJECT_DIR$/models/pvanet_obsolete/cfgs/100prop.yml" />
-      <change beforePath="$PROJECT_DIR$/models/pvanet_obsolete/cfgs/200prop.yml" afterPath="$PROJECT_DIR$/models/pvanet_obsolete/cfgs/200prop.yml" />
-      <change beforePath="$PROJECT_DIR$/models/pvanet_obsolete/cfgs/300prop.yml" afterPath="$PROJECT_DIR$/models/pvanet_obsolete/cfgs/300prop.yml" />
-      <change beforePath="$PROJECT_DIR$/models/pvanet_obsolete/cfgs/50prop.yml" afterPath="$PROJECT_DIR$/models/pvanet_obsolete/cfgs/50prop.yml" />
-      <change beforePath="$PROJECT_DIR$/models/pvanet_obsolete/cfgs/submit_160715.yml" afterPath="$PROJECT_DIR$/models/pvanet_obsolete/cfgs/submit_160715.yml" />
-      <change beforePath="$PROJECT_DIR$/models/pvanet_obsolete/cfgs/train.yml" afterPath="$PROJECT_DIR$/models/pvanet_obsolete/cfgs/train.yml" />
-      <change beforePath="$PROJECT_DIR$/models/pvanet_obsolete/comp/original.pt" afterPath="$PROJECT_DIR$/models/pvanet_obsolete/comp/original.pt" />
-      <change beforePath="$PROJECT_DIR$/models/pvanet_obsolete/comp/test.pt" afterPath="$PROJECT_DIR$/models/pvanet_obsolete/comp/test.pt" />
-      <change beforePath="$PROJECT_DIR$/models/pvanet_obsolete/example_finetune/README.md" afterPath="$PROJECT_DIR$/models/pvanet_obsolete/example_finetune/README.md" />
-      <change beforePath="$PROJECT_DIR$/models/pvanet_obsolete/example_finetune/solver.prototxt" afterPath="$PROJECT_DIR$/models/pvanet_obsolete/example_finetune/solver.prototxt" />
-      <change beforePath="$PROJECT_DIR$/models/pvanet_obsolete/example_finetune/test.prototxt" afterPath="$PROJECT_DIR$/models/pvanet_obsolete/example_finetune/test.prototxt" />
-      <change beforePath="$PROJECT_DIR$/models/pvanet_obsolete/example_finetune/train.prototxt" afterPath="$PROJECT_DIR$/models/pvanet_obsolete/example_finetune/train.prototxt" />
-      <change beforePath="$PROJECT_DIR$/models/pvanet_obsolete/example_train_384/README.md" afterPath="$PROJECT_DIR$/models/pvanet_obsolete/example_train_384/README.md" />
-      <change beforePath="$PROJECT_DIR$/models/pvanet_obsolete/example_train_384/solver.prototxt" afterPath="$PROJECT_DIR$/models/pvanet_obsolete/example_train_384/solver.prototxt" />
-      <change beforePath="$PROJECT_DIR$/models/pvanet_obsolete/example_train_384/test.prototxt" afterPath="$PROJECT_DIR$/models/pvanet_obsolete/example_train_384/test.prototxt" />
-      <change beforePath="$PROJECT_DIR$/models/pvanet_obsolete/example_train_384/train.prototxt" afterPath="$PROJECT_DIR$/models/pvanet_obsolete/example_train_384/train.prototxt" />
-      <change beforePath="$PROJECT_DIR$/models/pvanet_obsolete/full/original.pt" afterPath="$PROJECT_DIR$/models/pvanet_obsolete/full/original.pt" />
-      <change beforePath="$PROJECT_DIR$/models/pvanet_obsolete/full/test.pt" afterPath="$PROJECT_DIR$/models/pvanet_obsolete/full/test.pt" />
-      <change beforePath="$PROJECT_DIR$/models/pvanet_obsolete/imagenet/original.pt" afterPath="$PROJECT_DIR$/models/pvanet_obsolete/imagenet/original.pt" />
-      <change beforePath="$PROJECT_DIR$/models/pvanet_obsolete/imagenet/test.pt" afterPath="$PROJECT_DIR$/models/pvanet_obsolete/imagenet/test.pt" />
-      <change beforePath="$PROJECT_DIR$/models/pvanet_obsolete/lite/original.pt" afterPath="$PROJECT_DIR$/models/pvanet_obsolete/lite/original.pt" />
-      <change beforePath="$PROJECT_DIR$/models/pvanet_obsolete/lite/test.pt" afterPath="$PROJECT_DIR$/models/pvanet_obsolete/lite/test.pt" />
-      <change beforePath="$PROJECT_DIR$/tools/.cache/v/cache/lastfailed" afterPath="$PROJECT_DIR$/tools/.cache/v/cache/lastfailed" />
-      <change beforePath="$PROJECT_DIR$/tools/README.md" afterPath="$PROJECT_DIR$/tools/README.md" />
-      <change beforePath="$PROJECT_DIR$/tools/_init_paths.py" afterPath="$PROJECT_DIR$/tools/_init_paths.py" />
-      <change beforePath="$PROJECT_DIR$/tools/gen_merged_model.py" afterPath="$PROJECT_DIR$/tools/gen_merged_model.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -869,15 +24,37 @@
     <SUITE FILE_PATH="coverage/pva_faster_rcnn$train_rfcn.coverage" NAME="train_rfcn Coverage Results" MODIFIED="1520777505997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
     <SUITE FILE_PATH="coverage/pva_faster_rcnn$classify.coverage" NAME="classify Coverage Results" MODIFIED="1521011464712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/caffe-fast-rcnn/python" />
     <SUITE FILE_PATH="coverage/pva_faster_rcnn$pycaffe.coverage" NAME="pycaffe Coverage Results" MODIFIED="1521009728424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/caffe-fast-rcnn/python/caffe" />
-    <SUITE FILE_PATH="coverage/pva_faster_rcnn$train_net.coverage" NAME="train_net Coverage Results" MODIFIED="1521015233644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
+    <SUITE FILE_PATH="coverage/pva_faster_rcnn$train_net.coverage" NAME="train_net Coverage Results" MODIFIED="1521272421285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="train_net.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tools/train_net.py">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+              <folding>
+                <element signature="e#340#358#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="solver.prototxt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/pvanet/example_train/solver.prototxt">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="train.prototxt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/pvanet/example_train/train.prototxt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="6718" column="18" lean-forward="false" selection-start-line="6718" selection-start-column="9" selection-end-line="6718" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -886,8 +63,8 @@
       <file leaf-file-name="train.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/fast_rcnn/train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="183">
+              <caret line="43" column="31" lean-forward="false" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="31" />
               <folding>
                 <element signature="e#284#296#0" expanded="true" />
               </folding>
@@ -895,66 +72,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/caffe-fast-rcnn/python/caffe/__init__.py">
+      <file leaf-file-name="config.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/fast_rcnn/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="396">
+              <caret line="55" column="47" lean-forward="false" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="47" />
               <folding>
-                <element signature="e#0#122#0" expanded="true" />
+                <element signature="e#741#750#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="detect.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/caffe-fast-rcnn/python/detect.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="draw_net.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/caffe-fast-rcnn/python/draw_net.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="classify.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/caffe-fast-rcnn/python/classify.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding>
-                <element signature="e#182#200#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="install.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/install/install.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="setup_linux.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/setup_linux.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -988,10 +113,15 @@
       <find>xrange</find>
       <find>glog</find>
       <find>proto</find>
+      <find>use_global_stats</find>
+      <find>84</find>
+      <find>sgd</find>
+      <find>bbox_pred</find>
     </findStrings>
     <replaceStrings>
       <replace>pickle</replace>
       <replace>range</replace>
+      <replace>use_global_stats: false</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -1005,13 +135,11 @@
         <option value="$PROJECT_DIR$/lib/rpn/proposal_layer.py" />
         <option value="$PROJECT_DIR$/lib/roi_data_layer/layer.py" />
         <option value="$PROJECT_DIR$/lib/rpn/__init__.py" />
-        <option value="$PROJECT_DIR$/models/pvanet/example_train/train.prototxt" />
         <option value="$PROJECT_DIR$/lib/rpn/proposal_target_layer.py" />
         <option value="$PROJECT_DIR$/lib/fast_rcnn/train.py" />
         <option value="$PROJECT_DIR$/tools/test_net.py" />
         <option value="$PROJECT_DIR$/lib/fast_rcnn/test.py" />
         <option value="$PROJECT_DIR$/tools/train_rfcn.py" />
-        <option value="$PROJECT_DIR$/lib/fast_rcnn/config.py" />
         <option value="$PROJECT_DIR$/lib/datasets/pascal_voc.py" />
         <option value="$PROJECT_DIR$/lib/datasets/voc_eval.py" />
         <option value="$PROJECT_DIR$/lib/datasets/imdb.py" />
@@ -1022,6 +150,8 @@
         <option value="$PROJECT_DIR$/lib/fast_rcnn/tsr_test.py" />
         <option value="$PROJECT_DIR$/lib/Makefile" />
         <option value="$PROJECT_DIR$/install/install.sh" />
+        <option value="$PROJECT_DIR$/models/pvanet/example_train/train.prototxt" />
+        <option value="$PROJECT_DIR$/lib/fast_rcnn/config.py" />
       </list>
     </option>
   </component>
@@ -1052,6 +182,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1062,13 +194,7 @@
             <path>
               <item name="pva-faster-rcnn" type="b2602c69:ProjectViewProjectNode" />
               <item name="pva-faster-rcnn" type="462c0819:PsiDirectoryNode" />
-              <item name="caffe-fast-rcnn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pva-faster-rcnn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pva-faster-rcnn" type="462c0819:PsiDirectoryNode" />
-              <item name="caffe-fast-rcnn" type="462c0819:PsiDirectoryNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="experiments" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pva-faster-rcnn" type="b2602c69:ProjectViewProjectNode" />
@@ -1080,12 +206,39 @@
               <item name="pva-faster-rcnn" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="pva-faster-rcnn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pva-faster-rcnn" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="fast_rcnn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pva-faster-rcnn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pva-faster-rcnn" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pva-faster-rcnn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pva-faster-rcnn" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="pvanet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pva-faster-rcnn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pva-faster-rcnn" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="pvanet" type="462c0819:PsiDirectoryNode" />
+              <item name="example_train" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pva-faster-rcnn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pva-faster-rcnn" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1306,17 +459,17 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32762313" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22257054" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20323451" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20518477" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24555904" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1528,20 +681,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/pvanet/example_train/train.prototxt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/pvanet/example_train/solver.prototxt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/rpn/proposal_target_layer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2916">
@@ -1611,13 +750,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/fast_rcnn/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="217" column="41" lean-forward="false" selection-start-line="217" selection-start-column="41" selection-end-line="217" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/datasets/voc_eval.py" />
     <entry file="file://$PROJECT_DIR$/lib/datasets/tools/mcg_munge.py" />
     <entry file="file://$PROJECT_DIR$/lib/datasets/__init__.py" />
@@ -1678,7 +810,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1296">
           <caret line="72" column="27" lean-forward="false" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1686,35 +817,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/train_net.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/fast_rcnn/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#284#296#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/caffe-fast-rcnn/python/caffe/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#122#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1726,15 +828,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/caffe-fast-rcnn/python/detect.py">
+    <entry file="file://$PROJECT_DIR$/lib/Makefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="18">
+          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/caffe-fast-rcnn/python/draw_net.py">
+    <entry file="file://$PROJECT_DIR$/lib/setup_linux.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1750,7 +851,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/setup_linux.py">
+    <entry file="file://$PROJECT_DIR$/caffe-fast-rcnn/python/classify.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#182#200#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caffe-fast-rcnn/python/draw_net.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1758,20 +869,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Makefile">
+    <entry file="file://$PROJECT_DIR$/caffe-fast-rcnn/python/detect.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="45" />
+        <state relative-caret-position="414">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/caffe-fast-rcnn/python/classify.py">
+    <entry file="file://$PROJECT_DIR$/caffe-fast-rcnn/python/caffe/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#182#200#0" expanded="true" />
+            <element signature="e#0#122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/fast_rcnn/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="43" column="31" lean-forward="false" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="31" />
+          <folding>
+            <element signature="e#284#296#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/pvanet/example_train/train.prototxt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="6718" column="18" lean-forward="false" selection-start-line="6718" selection-start-column="9" selection-end-line="6718" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/pvanet/example_train/solver.prototxt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/train_net.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding>
+            <element signature="e#340#358#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/fast_rcnn/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="55" column="47" lean-forward="false" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="47" />
+          <folding>
+            <element signature="e#741#750#0" expanded="true" />
           </folding>
         </state>
       </provider>
