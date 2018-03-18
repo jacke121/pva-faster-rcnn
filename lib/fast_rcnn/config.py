@@ -62,6 +62,8 @@ __C.MODELS_DIR = osp.abspath(osp.join(__C.ROOT_DIR, 'models', 'pascal_voc'))
 # Each scale is the pixel size of an image's shortest side
 __C.TRAIN.SCALES = (512,)
 
+# Iterations between snapshots
+__C.TRAIN.SNAPSHOT_ITERS = 2000
 # Resize test images so that its width and height are multiples of ...
 __C.TRAIN.SCALE_MULTIPLE_OF = 32
 
@@ -69,7 +71,7 @@ __C.TRAIN.SCALE_MULTIPLE_OF = 32
 __C.TRAIN.MAX_SIZE = 512
 
 # Images to use per minibatch
-__C.TRAIN.IMS_PER_BATCH = 8
+__C.TRAIN.IMS_PER_BATCH = 1
 
 # Minibatch size (number of regions of interest [ROIs])
 __C.TRAIN.BATCH_SIZE = 128
@@ -95,8 +97,7 @@ __C.TRAIN.BBOX_REG = True
 # be used as a bounding-box regression training example
 __C.TRAIN.BBOX_THRESH = 0.5
 
-# Iterations between snapshots
-__C.TRAIN.SNAPSHOT_ITERS = 2000
+
 
 # solver.prototxt specifies the snapshot path prefix, this adds an optional
 # infix to yield the path: <prefix>[_<infix>]_iters_XYZ.caffemodel

@@ -75,7 +75,7 @@ layer {
     decay_mult: 0
   }
   batch_norm_param {
-    use_global_stats: false
+    use_global_stats: true
   }
 }
 layer {
@@ -6710,7 +6710,7 @@ layer {
   param { lr_mult: 1.0 }
   param { lr_mult: 2.0 }
   inner_product_param {
-    num_output: 2
+    num_output: 8 # 2 * 4 - it should be 3 * 4
     weight_filler { type: "gaussian" std: 0.01 }
     bias_filler { type: "constant" value: 0 }
   }
