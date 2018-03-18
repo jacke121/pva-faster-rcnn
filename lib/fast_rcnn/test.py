@@ -316,13 +316,15 @@ def test_net(net, imdb, max_per_image=100, thresh=0.05, vis=False):
             for i in all_boxes:
                 bbox = np.asarray(i)[0][:4]
                 score = np.asarray(i)[0][-1]
-                cv2.rectangle(im, (bbox[0], bbox[1]), (bbox[2], bbox[3]), (0, 0, 255), 2)
-                cv2.putText(im, '%s%0.3f' % ("mouse", score), (int(bbox[0]), int(bbox[1] - 2)),
-                            cv2.FONT_HERSHEY_COMPLEX,
-                            0.5, (0, 0, 255), 1)
+                if score>0.45:
+                    cv2.rectangle(im, (bbox[0], bbox[1]), (bbox[2], bbox[3]), (0, 0, 255), 2)
+                    cv2.putText(im, '%s%0.3f' % ("mouse", score), (int(bbox[0]), int(bbox[1] - 2)),
+                                cv2.FONT_HERSHEY_COMPLEX,
+                                0.5, (0, 0, 255), 1)
             if len(all_boxes)>0:
-                cv2.imshow('1', im)
-                cv2.waitKey()
+                imshow= cv2.resize(im, (im.shape[1]*3//4, im.shape[0]*3//4 ), interpolation=cv2.INTER_CUBIC)
+                cv2.imshow('1', imshow)
+                cv2.waitKey(0)
             # Limit to max_per_image detections *over all classes*
             # if max_per_image > 0:
             #     image_scores = np.hstack([all_boxes[j][i][:, -1]
@@ -336,10 +338,10 @@ def test_net(net, imdb, max_per_image=100, thresh=0.05, vis=False):
 
         print(all_boxes)
         print('requests', (datetime.datetime.now() - time_old).microseconds)
-        print('im_detect: {:d}/{:d}  net {:.3f}s  preproc {:.3f}s  postproc {:.3f}s  misc {:.3f}s'
-              .format(i + 1, num_images, _t['im_net'].average_time,
-                      _t['im_preproc'].average_time, _t['im_postproc'].average_time,
-                      _t['misc'].average_time))
+        # print('im_detect: {:d}/{:d}  net {:.3f}s  preproc {:.3f}s  postproc {:.3f}s  misc {:.3f}s'
+        #       .format(i + 1, num_images, _t['im_net'].average_time,
+        #               _t['im_preproc'].average_time, _t['im_postproc'].average_time,
+        #               _t['misc'].average_time))
 
     det_file = os.path.join(output_dir, 'detections.pkl')
     with open(det_file, 'wb') as f:
