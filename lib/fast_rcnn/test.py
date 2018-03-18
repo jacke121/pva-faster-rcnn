@@ -251,8 +251,8 @@ def test_net(net, imdb, max_per_image=100, thresh=0.05, vis=False):
     # all detections are collected into:
     #    all_boxes[cls][image] = N x 5 array of detections in
     #    (x1, y1, x2, y2, score)
-    all_boxes = [[[] for _ in range(num_images)]
-                 for _ in range(imdb.num_classes)]
+    # all_boxes = [[[] for _ in range(num_images)]
+    #              for _ in range(imdb.num_classes)]
 
     output_dir = get_output_dir(imdb, net)
 
@@ -291,6 +291,7 @@ def test_net(net, imdb, max_per_image=100, thresh=0.05, vis=False):
         _t['misc'].tic()
         # skip j = 0, because it's the background class
         for j in range(1, imdb.num_classes):
+            all_boxes=[]
             inds = np.where(scores[:, j] > thresh)[0]
             if len(inds)>0:
                 print("getgetgetgetgetgetgetgetgetgetgetgetgetgetgetgetgetget")
@@ -301,6 +302,8 @@ def test_net(net, imdb, max_per_image=100, thresh=0.05, vis=False):
             keep = nms(cls_dets, cfg.TEST.NMS)
 
             dets_NMSed = cls_dets[keep, :]
+            if len(dets_NMSed)>0:
+                all_boxes.append(dets_NMSed)
             if cfg.TEST.BBOX_VOTE:
                 cls_dets = bbox_vote(dets_NMSed, cls_dets)
             else:
@@ -308,33 +311,31 @@ def test_net(net, imdb, max_per_image=100, thresh=0.05, vis=False):
 
             if vis:
                 vis_detections(im, imdb.classes[j], cls_dets)
-            all_boxes[j][i] = cls_dets
+                # all_boxes[j][i] = cls_dets
 
-        # Limit to max_per_image detections *over all classes*
-        if max_per_image > 0:
-            image_scores = np.hstack([all_boxes[j][i][:, -1]
-                                      for j in range(1, imdb.num_classes)])
-            if len(image_scores) > max_per_image:
-                image_thresh = np.sort(image_scores)[-max_per_image]
-                for j in range(1, imdb.num_classes):
-                    keep = np.where(all_boxes[j][i][:, -1] >= image_thresh)[0]
-                    all_boxes[j][i] = all_boxes[j][i][keep, :]
-        _t['misc'].toc()
+            for i in all_boxes:
+                bbox = np.asarray(i)[0][:4]
+                score = np.asarray(i)[0][-1]
+                cv2.rectangle(im, (bbox[0], bbox[1]), (bbox[2], bbox[3]), (0, 0, 255), 2)
+                cv2.putText(im, '%s%0.3f' % ("mouse", score), (int(bbox[0]), int(bbox[1] - 2)),
+                            cv2.FONT_HERSHEY_COMPLEX,
+                            0.5, (0, 0, 255), 1)
+            if len(all_boxes)>0:
+                cv2.imshow('1', im)
+                cv2.waitKey()
+            # Limit to max_per_image detections *over all classes*
+            # if max_per_image > 0:
+            #     image_scores = np.hstack([all_boxes[j][i][:, -1]
+            #                               for j in range(1, imdb.num_classes)])
+            #     if len(image_scores) > max_per_image:
+            #         image_thresh = np.sort(image_scores)[-max_per_image]
+            #         for j in range(1, imdb.num_classes):
+            #             keep = np.where(all_boxes[j][i][:, -1] >= image_thresh)[0]
+            #             all_boxes[j][i] = all_boxes[j][i][keep, :]
+            _t['misc'].toc()
 
-        # cv2.rectangle(im, (bbox[0], bbox[1]), (bbox[2], bbox[3]), (0, 0, 255), 2)
-        # cv2.putText(im, '%s%0.3f' % (class_name, score), (int(bbox[0]), int(bbox[1] - 2)), cv2.FONT_HERSHEY_COMPLEX,
-        #             0.5, (0, 0, 255), 1)
-
-        # for i in inds:
-        #     bbox = all_boxes[i, :4]
-        #     score = all_boxes[i, -1]
-        #     cv2.rectangle(im, (bbox[0], bbox[1]), (bbox[2], bbox[3]), (0, 0, 255), 2)
-        #     cv2.putText(im, '%s%0.3f' % (class_name, score), (int(bbox[0]), int(bbox[1] - 2)), cv2.FONT_HERSHEY_COMPLEX,
-        #                 0.5, (0, 0, 255), 1)
-        # cv2.imshow('1', im)
-        # cv2.waitKey()
-
-        print('requests2', (datetime.datetime.now() - time_old).microseconds)
+        print(all_boxes)
+        print('requests', (datetime.datetime.now() - time_old).microseconds)
         print('im_detect: {:d}/{:d}  net {:.3f}s  preproc {:.3f}s  postproc {:.3f}s  misc {:.3f}s'
               .format(i + 1, num_images, _t['im_net'].average_time,
                       _t['im_preproc'].average_time, _t['im_postproc'].average_time,
